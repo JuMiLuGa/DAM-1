@@ -1,0 +1,22 @@
+INICIO
+
+&& Esta calculadora solo permite realizar suma de dos numeros de un digito &&
+echo "introducir un numero"
+escribir un numero de 0-9
+comprobar si numero esta entre 0 y 9
+if numero distinto de 0-9
+    echo "numero no valido" y volver a introducir numero
+    else guardar el valor en n1
+endif
+
+echo "introducir otro numero"
+escribir un numero de 0-9
+comprobar si numero esta entre 0 y 9
+if numero distinto 0-9 then
+    echo "numero no valido" y volver a introducir otro numero
+    else   
+        guardar el valor en n2
+endif
+Leer n1
+Leer n2
+    suma=n1+n2

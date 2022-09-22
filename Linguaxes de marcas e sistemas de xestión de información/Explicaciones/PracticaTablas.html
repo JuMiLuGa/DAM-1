@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		 <meta charset="UTF-8">
+         <title>Practica Tablas</title>
+	</head>
+	<body style="color: white;" bgcolor="black">
+        <h1>Tabla simple</h1>
+        <Table border="1" style="text-align:center"> <!--Tabla simple-->
+            <th>Columna 1</th>
+            <th>Columna 2</th>
+            <th>Columna 3</th>
+            <th>Columna 4</th>
+            <tr>
+                <td>1.1</td>
+                <td>1.2</td>
+                <td>1.3</td>
+                <td>1.4</td>
+            </tr>
+            <tr>
+                <td>2.1</td>
+                <td>2.2</td>
+                <td>2.3</td>
+                <td>2.4</td>
+            </tr>
+            <tr>
+                <td>3.1</td>
+                <td>3.2</td>
+                <td>3.3</td>
+                <td>3.4</td>
+            </tr>
+            <tr>
+                <td>4.1</td>
+                <td>4.2</td>
+                <td>4.3</td>
+                <td>4.4</td>
+            </tr>
+        </Table>
+		<br>
+        <h1>Tabla con celdas combinadas</h1>
+        <Table border="1" style="text-align:center"> <!--Tabla con celdas combinadas-->
+            <th>Columna 1</th>
+            <th>Columna 2</th>
+            <th>Columna 3</th>
+            <th>Columna 4</th>
+            <tr>
+                <td>1.1</td>
+                <td>1.2</td>
+                <td>1.3</td>
+                <td>1.4</td>
+            </tr>
+            <tr>
+                <td colspan="2">2.1 - 2.2</td> <!--Combinacion de dos celdas hacia lateral-->
+                <td>2.3</td>
+                <td>2.4</td>
+                <!-- <td>2.4</td> --> <!--se comenta la linea para que no se salga de la tabla el dato-->
+            </tr>
+            <tr>
+                <td>3.1</td>
+                <td>3.2</td>
+                <td>3.3</td>
+                <td rowspan="2">3.4 - 4.4</td> <!--Combinacion de dos celdas hacia abajo-->
+            </tr>
+            <tr>
+                <td>4.1</td>
+                <td>4.2</td>
+                <td>4.3</td>
+                <!--<td>4.4</td>--> <!--se comenta la linea para que no se salga de la tabla el dato-->
+            </tr>
+        </Table>
+	</body>
+</html>

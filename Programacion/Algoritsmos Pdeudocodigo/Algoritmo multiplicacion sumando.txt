@@ -1,0 +1,12 @@
+INICIO 
+echo "introducir numero"
+            guardar valor en variable n1
+
+echo "introducir otro numero"
+            guardar valor en variable n2
+
+n1=x
+n2=y
+
+for i=1 TO i=n2 step=1 do
+    mostrar resultado

@@ -1,0 +1,4 @@
+INICIO
+for i=1 to i =10 step=1 do
+echo i
+endfor

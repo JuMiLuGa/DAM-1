@@ -1,0 +1,37 @@
+INICIO
+&& La maquina expendedora solo acepta monedas y las monedas de 1 y 2 centimos no las acepta &&
+recibe moneda
+	if moneda_real
+		comprobar valor 
+	else devolver moneda
+	endif
+	if moneda_real= 0.05
+		añadir 0.05 al saldo
+			else if moneda_real=0.10
+				añadir 0.10 al saldo
+					else if moneda_real=0.20
+						añadir 0.20 al saldo
+							else if moneda_real=0.50
+								añadir al saldo 0.50
+									else if moneda_real=1.00
+										añandir al saldo 1.00
+											else if moneda_real=2.00
+												añadir al saldo 2.00
+													else if moneda_real=0.01
+														devolver moneda
+															else if moneda_real=0.02
+																devolver moneda
+																endif
+recibe numero de seleccion
+	if producto agotado
+		echo "producto agotado" y dejar volver a seleccionar
+			else 	if saldo < precio
+				echo "saldo insuficiente" y volver a dejar seleccionar
+					else empujar producto seleccionado
+					endif
+una vez esta empujando el producto se mueve hasta x posicion
+	if detecta que no ha caido
+		devuelve el dinero y pasa a estar el producto agotado
+	else 	if precio < saldo
+			devolver lo sobrante
+		endif

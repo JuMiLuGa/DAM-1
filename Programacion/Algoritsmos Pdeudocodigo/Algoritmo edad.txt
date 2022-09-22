@@ -1,0 +1,11 @@
+INICIO
+
+echo "Introduce tu edad"
+guardar valor en variable edad
+
+Leer edad
+if edad<18 then
+    echo "Menor de edad"
+else 
+    echo "Mayor de edad"
+endif
