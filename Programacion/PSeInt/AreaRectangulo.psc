@@ -1,4 +1,4 @@
-Algoritmo MayorMenorIgual
+Algoritmo Area_rectangulo
 	definir LadoA, LadoB como real 
 	Escribir base rectangulo
 	leer LadoA

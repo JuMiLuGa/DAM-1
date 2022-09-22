@@ -1,6 +1,6 @@
-Algoritmo sin_titulo
+Algoritmo Estado_agua
 	Escribir " Temperatura del agua es: "
-	Leer Tagua
+	Leer Tagua 
 	
 	Si Tagua<0 Entonces
 		Escribir " El estado del agua es en estado solido "
