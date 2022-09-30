@@ -1,0 +1,878 @@
+body {
+  background: #FFF;
+  width: 99%;
+  font-size: 18px;
+}
+h1,h3,.label,.labelmini {
+  color:#0F18A0;
+}
+.label,.labelmini{
+  font-weight: bold;
+  clear: both;
+}
+.labelmini{
+  font-size:12px;
+  clear: both;
+}
+a:link {
+  color:#0F18A0;
+  font-weight: bold;
+  text-decoration: none;
+}
+a:visited {
+  color: green;
+  text-decoration: none;
+}
+a:hover {
+  color: #A50130;
+  text-decoration: none;
+}
+div.indent {
+  margin-top:20px;
+  clear: both;
+}
+div.minindent {
+  margin-top:5px;
+}
+div.infindent {
+  margin-top:-15px;
+}
+div.explication {
+  width: 700px;
+  margin: 0 auto;
+}
+div.pagebreak {
+  page-break-before: always;
+}
+h1, #autocentrado, .nota {
+  width:100%;
+  margin:0 auto;
+}
+#autocentradolongo {
+  width:110%;
+  margin:0 auto;
+}
+.nome, .nomefwn {
+  color:#0F18A0;
+}
+.nomefwn {
+  font-weight:normal !important;
+}
+.contido, .contidoleft {
+  -khtml-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  border: 1px solid #cccccc;
+  margin: 0 auto;
+}
+.contido {
+  clear: both;
+}
+.contidoleft {
+  width: 260px;
+  float: left;
+}
+.subcontido, .subcontidolongo, .codesubcontido, .codesubcontidolongo, .codesubcontidolongomarginleft {
+  width:300px;
+  margin: 0 auto;
+  -khtml-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  border: 1px solid #cccccc;
+  background-color:#dddddd;
+}
+.codesubcontido{
+  width:600px;
+  border-radius: 25px;
+  padding: 5px;
+}
+.codesubcontidolongo, .codesubcontidolongomarginleft, .subcontidolongo{
+  width:700px;
+  border-radius: 25px;
+  padding: 5px;
+  font-size: 12px;
+}
+.codesubcontidolongomarginleft {
+  margin-left:-20px;
+  width:720px;
+}
+.subcontidolongo{
+  font-size: 16px;
+}
+.fleft, .fleftfs {
+  float: left;
+}
+.fleftfs, .frightfs {
+  font-size: 14px;
+}
+.fright, .frightfs {
+  float:right;
+}
+.command, .socommand {
+  border-radius: 25px;
+  background: #73AD21;
+  padding: 5px; 
+}
+.builtin {
+  background-color: red;
+  border-radius: 25px;
+  padding: 5px; 
+  max-width:60px;
+}
+.socommand{
+  max-width:82px;
+}
+.abaixomini{
+  padding-top: 2px;
+}
+.abaixo{
+  padding-top: 5px;
+}
+.abaixo2{
+  padding-top: 10px;
+}
+.arribasubsmini3{
+  margin-bottom: -12px;
+}
+.arribasubsmini2{
+  margin-bottom: -10px;
+}
+.arribasubsmini1{
+  margin-bottom: -5px;
+}
+.arribasubsmini{
+  margin-bottom: -14px;
+}
+.arribasubs15{
+  margin-bottom: -15px;
+}
+.arribasubs{
+  margin-bottom: -16px;
+}
+.arribasubs18{
+  margin-bottom: -18px;
+}
+.arriba{
+  margin-bottom: -20px;
+}
+.arribaplus{
+  margin-bottom: -30px;
+}
+.arribaplusx2{
+  margin-bottom: -40px;
+}
+.arribaplusx3{
+  margin-bottom: -60px;
+}
+.arribaplusx4{
+  margin-bottom: -80px;
+}
+.arribaplusx5{
+  margin-bottom: -100px;
+}
+.arribaplusx7{
+  margin-bottom: -140px;
+}
+ul.dashed, ul.hashtag, ul.SRCD, ul.hashtag-ubuntu, ul.hashtag-debian, ul.hashtag-kali, ul.hashtag-ies, ul.hashtag-kaliA, ul.hashtag-debianA, ul.hashtag-kaliB, ul.hashtag-debianB, ul.dashed-ubuntu, ul.dashed-debian, ul.dashed-debian-alumno, ul.dashed-debian-usuario, ul.dashed-kali, ul.dashed-kaliA, ul.dashed-debianA, ul.dashed-kaliB, ul.dashed-debianB, ul.dashed-testuser, ul.dashed-testuser-kalia, ul.dashed-testuser-kaliB, ul.dashed-ies, ul.CMD-CiscoPacketTracer, ul.CMD-Usuario, ul.CMD-Downloads, ul.dashed-kalia, ul.hashtag-kalia, ul.dashed-kalib, ul.hashtag-kalib, ul.dashed-alumnoA {
+  list-style-type:none;
+}
+ul.dashed > li:before {
+  content: "$ ";
+}
+ul.dashed-ubuntu > li:before {
+  content: "alumno@ubuntu-server:~$ ";
+}
+ul.dashed-debian > li:before {
+  content: "user@debian:~$ ";
+}
+ul.dashed-debian-alumno > li:before {
+  content: "alumno@debian:~$ ";
+}
+ul.dashed-alumnoA > li:before {
+  content: "alumno@debianA:~$ ";
+}
+ul.dashed-debian-usuario > li:before {
+  content: "usuario@debian:~$ ";
+}
+ul.dashed-kali > li:before {
+  content: "kali@kali:~$ ";
+}
+ul.dashed-kaliA > li:before {
+  content: "kali@kaliA:~$ ";
+}
+ul.dashed-kalia > li:before {
+  content: "kali@kalia:~$ ";
+}
+ul.dashed-debianA > li:before {
+  content: "usuario@debianA:~$ ";
+}
+ul.dashed-ies > li:before {
+  content: "kali@ies:~$ ";
+}
+ul.dashed-kaliB > li:before {
+  content: "kali@kaliB:~$ ";
+}
+ul.dashed-kalib > li:before {
+  content: "kali@kalib:~$ ";
+}
+ul.dashed-debianB > li:before {
+  content: "usuario@debianB:~$ ";
+}
+ul.dashed-testuser > li:before {
+  content: "testuser@kaliA:~$ ";
+}
+ul.dashed-testuser-kalia > li:before {
+  content: "testuser@kalia:~$ ";
+}
+ul.dashed-testuser-kaliB > li:before {
+  content: "testuser@kaliB:~$ ";
+}
+ul.hashtag > li:before {
+  content: "# ";
+}
+ul.hashtag-ubuntu > li:before {
+  content: "root@ubuntu-server:~# ";
+}
+ul.hashtag-debian > li:before {
+  content: "root@debian:~# ";
+}
+ul.hashtag-debianA > li:before {
+  content: "root@debianA:~# ";
+}
+ul.hashtag-debianB > li:before {
+  content: "root@debianB:~# ";
+}
+ul.hashtag-kali > li:before {
+  content: "root@kali:~# ";
+}
+ul.hashtag-ies > li:before {
+  content: "root@ies:~# ";
+}
+ul.hashtag-kaliA > li:before {
+  content: "root@kaliA:~# ";
+}
+ul.hashtag-kalia > li:before {
+  content: "root@kalia:~# ";
+}
+ul.hashtag-kaliB > li:before {
+  content: "root@kaliB:~# ";
+}
+ul.hashtag-kalib > li:before {
+  content: "root@kalib:~# ";
+}
+ul.SRCD > li:before {
+  content: "% ";
+}
+ul.CMD > li:before {
+  content: '> ';
+}
+ul.CMD-CiscoPacketTracer > li:before {
+  content: "Packet Tracer PC Command Line 1.0 \A C:\> ";
+  white-space: pre;
+}
+ul.CMD-Usuario > li:before {
+  content: "C:\\Users\\usuario> ";
+  white-space: pre;
+}
+ul.CMD-Downloads > li:before {
+  content: "C:\\Users\\usuario\\Downloads> ";
+  white-space: pre;
+}
+.mtop{
+  margin-top:5px;
+}
+.mtopplus{
+  margin-top:15px;
+}
+.mtopplusx2{
+  margin-top:40px;
+}
+.mtopplusx4{
+  margin-top:80px;
+}
+.mtopplusx8{
+  margin-top:160px;
+}
+.mleft{
+  margin-left:20px;
+}
+.mleft5{
+  margin-left:5px;
+}
+.mleft10{
+  margin-left:10px;
+}
+.mleft30{
+  margin-left:30px;
+}
+.mleftplus{
+  margin-left:32px;
+  padding-bottom:12px !important;
+}
+.mleft40{
+margin-left:40px;
+}
+.mleft80{
+margin-left:80px;
+}
+.mleftplusx4{
+  margin-left:80px;
+}
+.mleftplusx8{
+  margin-left:160px;
+}
+.mleftplus240{
+  margin-left:240px;
+}
+.mleftplus280{
+  margin-left:280px;
+}
+.mleftplus280x2{
+  margin-left:560px;
+}
+.mleftplus280x3{
+  margin-left:840px;
+}
+.mleftsubsminix2{
+  margin-left:-10px;
+}
+.mleftsubsmini{
+  margin-left:-20px;
+}
+.mleftsubs{
+  margin-left:-20px;
+}
+.mleftsubsx2{
+  margin-left:-40px;
+}
+.mleftsubsx3{
+  margin-left:-60px;
+}
+.mleftsubsx4{
+  margin-left:-80px;
+}
+.mleftsubsx6{
+  margin-left:-120px;
+}
+.mleftsubsx8{
+  margin-left:-160px;
+}
+.mleftsubsx8a{
+  margin-left:-180px;
+}
+.mbottom{
+  margin-bottom:20px;
+}
+.mbottom10{
+  margin-bottom: 10px;
+}
+.mrightsubs{
+  margin-right:-20px;
+}
+.mrightsubsx6{
+  margin-right:-120px;
+}
+li.colorblue{
+  list-style-type: square;
+  color:#0F18A0;
+}
+.negro {
+  background-color: black;
+}
+.shellptsquestion, .shellpts {
+  background-color:black;
+  color:white;
+}
+.shellptsquestion{
+  font-weight:bold;
+}
+figure {
+  border: 1px blue dashed;
+  max-width: 100%;
+  font-weight: bold;
+}
+figure li .nome {
+  font-weight: bold;
+}
+.cfigure {
+  border: none;
+}
+.bfigure {
+  border: 1px blue dashed;
+}
+.nota {
+border: 1px blue dashed;
+background-color:#dfffff;
+}
+ol div {
+  margin-left: -10px;
+  margin-right:10px;
+}
+div.imgccbysa img{
+  border-width:0;
+}
+.w80 {
+width:96%;
+}
+.w70 {
+width:70%;
+}
+.w1080{
+width:1080px;
+}
+.code{
+font-size:14px;
+}
+.code2{
+font-size:15px;
+}
+.code3{
+font-size:16px;
+}
+.pall8{
+padding: 8px;
+}
+.pall{
+padding: 5px;
+}
+.pall4{
+padding: 4px;
+}
+td.pall2, th.pall2{
+padding: 2px;
+}
+.explicacion{
+font-size:14px;
+color:#0F18A0;
+}
+.explicacion2, .explicacion3, .explicacion4, .explicacion5, .explicacion6{
+margin-left:80px;
+margin-top:4px;
+margin-bottom:4px;
+background-color:yellow;
+border:1px dotted;
+font-size:14px;
+text-align:right;
+}
+.explicacion3, .explicacion4, .explicacion5, .explicacion6{
+text-align:left
+}
+.explicacion4{
+margin-left: 20px;
+}
+.explicacion5{
+margin-left: 20px;
+border: none;
+background-color: transparent;
+font-size:16px;
+}
+.explicacion6{
+border-radius:4px;
+border-bottom-left-radius:20px;
+box-shadow: rgba(0, 0, 0, 0.4) 5px 5px, rgba(0, 0, 0, 0.3) 10px 10px, rgba(0, 0, 0, 0.2) 15px 15px, rgba(0, 0, 0, 0.1) 20px 20px, rgba(0, 0, 0, 0.05) 25px 25px;
+margin-left:-20px;
+padding-left:0px !important;
+padding-right:2px !important;
+}
+.justify{
+text-align:justify;
+}
+.tleft{
+text-align:left;
+}
+caption{
+font-weight:bold;
+font-size:18px;
+text-align:right;
+}
+table.keycombines{
+-khtml-border-radius: 5px;
+-webkit-border-radius: 5px;
+border-radius: 5px;
+border: 1px blue dashed;
+}
+table.keycombines th {
+background-color: black;
+color: white;
+}
+table.keycombines tr:nth-child(even) {
+background-color: mediumpurple;
+}
+table.keycombines tr:nth-child(odd) {
+background-color: aliceblue;
+}
+.titlesamba{
+margin: 0px auto;
+margin-left:60px;
+}
+.title30{
+font-size:30px;
+}
+.title24{
+font-size:24px;
+}
+.title20{
+font-size:20px;
+}
+.title18imp{
+font-size:18px !important;
+}
+.title16imp{
+font-size:16px !important;
+}
+.title16{
+font-size:15px;
+}
+.title14{
+font-size:14px;
+}
+.title10imp{
+font-size:10px !important;
+}
+.cboth{
+clear: both;
+}
+.fweightnull{
+font-weight:normal;
+}
+.bgy{
+background-color:yellow;
+}
+.bgsalmon{
+background-color:salmon;
+border:1px solid black;
+}
+.bgsalmonnull{
+background-color:salmon;
+}
+.bglime{
+background-color:lime;
+}
+.bggreen{
+background-color:green;
+}
+.bgaqua{
+background-color:aqua;
+}
+.bgwhite{
+background-color:white;
+}
+.bgred{
+background-color:red;
+}
+.bgtomato{
+background-color:tomato;
+}
+.bgfuchsia{
+background-color:fuchsia;
+}
+.bgspringgreen{
+background-color:springgreen;
+}
+.bgpink{
+background-color:pink;
+}
+.bgbisque{
+background-color:bisque;
+}
+.tdP, .tdPFileSystem, .tdPDocumentRoot{
+border:1px solid black;
+text-align:center;
+padding:0px;
+}
+.tdPHeader{
+background-color:orange;
+padding:4px;
+}
+.tdPFileSystem{
+background-color:red;
+}
+.tdPDocumentRoot{
+background-color:pink;
+}
+#protocoloKerberos, .protocolo {
+  border: 1px solid blue;
+  /*color: blue;*/
+  /*font-size: 10px;*/
+}
+#protocoloKerberos span {
+  color:#0F18A0;
+}
+table.links{
+margin-top:-26px;
+}
+table.links td{
+margin-top:-12px;
+margin-bottom:40px;
+}
+.up {
+  z-index:100;
+  position:relative;
+  margin-top:-36px;
+}
+.down {
+  z-index:-1;
+}
+sub.summatory{
+position:absolute;
+margin-top:-28px;
+}
+sub.summatoryRAID10{
+position:absolute;
+margin-top:-40px;
+margin-left:-180px;
+}
+
+.RAID10-1a,.RAID10-1b,.RAID10-1-0{
+z-index:100;
+position:relative;
+margin-left:66px;
+margin-top:24px;
+margin-bottom:84px;
+height:52px;
+max-height:52px;
+width:148px;
+max-width:148px;
+background-color:red;
+opacity:0.4;
+}
+.RAID10-1b{
+margin-left:230px;
+margin-top:-136px;
+margin-bottom:120px;
+}
+.RAID10-1-0{
+margin-left:64px;
+margin-top:-162px;
+margin-bottom: 80px;
+border:2px dashed green;
+width:312px;
+max-width:312px;
+height:80px;
+max-height:80px;
+background-color:transparent;
+}
+.RAID10-1-0 figcaption{
+margin-top:-20px;
+font-size:14px;
+font-weight:bold;
+color:black;
+opacity=1;
+}
+.mtopsubsmini2{
+margin-top:-5px;
+}
+.mtopsubsmini{
+margin-top:-10px;
+}
+.mtopsubs{
+margin-top:-20px;
+}
+.mtopsubsx2{
+margin-top:-40px;
+}
+.mtopsubsx2-3{
+margin-top:-50px;
+}
+.mtopsubsx3{
+margin-top:-60px;
+}
+.mtopsubsx4{
+margin-top:-80px;
+}
+.mtopsubsx7{
+margin-top:-140px;
+}
+.links, .links50, .links70, .links100, .links130, .links200, .links300, .links600{
+border-width:0;
+margin-top:0px;
+}
+.links50{
+margin-left:50px;
+}
+.links70{
+margin-left:70px;
+}
+.links100{
+margin-left:100px;
+}
+.links130{
+margin-left:130px;
+}
+.links170{
+margin-left:170px;
+}
+.links200{
+margin-left:200px;
+}
+.links300{
+margin-left:300px;
+}
+.links600{
+margin-left:600px;
+}
+.figurecenter{
+text-align:center;
+}
+.pleftsubs{
+padding-left:8px;
+}
+.pleft{
+padding-left:16px;
+}
+.pleft24{
+padding-left:24px;
+}
+.prightsubs{
+padding-right:8px;
+}
+.pright{
+padding-right:16px;
+}
+.prightx10{
+padding-right:160px;
+}
+.pmargin{
+margin: 5px 5px 0 5px;
+}
+.cwhite{
+color:white;
+}
+.cblack{
+color:black;
+}
+.width880{
+width:880px;
+}
+.mrightnull{
+margin-right:0px;
+}
+.mrightmini{
+margin-right:10px;
+}
+.mright{
+margin-right:20px;
+}
+.mrightx2{
+margin-right:40px;
+}
+.mrightx3{
+margin-right:60px;
+}
+h1.Inodos{
+margin-top:-10px;
+width:1080px;
+}
+div.Inodos2{
+margin-top:25px;
+width:1120px
+}
+div.Inodos3{
+width:820px;
+}
+p.Inodoscenter1, p.Inodoscenter2{
+border:1px dotted blue;
+padding:15px;
+width:174px;
+}
+span.InodoscenterIn{
+border:1px solid blue;
+padding: 2px 2px;
+}
+p.Inodoscenter2{
+width:320px;
+}
+div.EstruturaDiscoWikipedia{
+float:right;
+margin-top:-600px;
+}
+pre.testdisk{
+background-color:black;
+color: #d4dcd2;
+}
+pre.testdisk .selectTD{
+background-color:white;
+color:black;
+}
+pre.testdisk .selectUndeleteTD{
+background-color:#cc1f22;
+color:#532426;
+}
+pre.testdisk .copyTD{
+color:#45cea7;
+}
+.cheat-sheet{
+  border-radius: 25px;
+  border:2px solid #0F18A0;
+  padding: 10px; 
+}
+th.cheat-sheet {
+  background: #B5F9EE;
+}
+td.cheat-sheet {
+  background: white;
+}
+td.cheat-sheet ul {
+  margin-top:0;
+  margin-bottom:0;
+}
+p.text-vertical, p.text-vertical-PRI, p.text-vertical-AD {
+-webkit-transform: rotate(90deg);
+max-width:40px;
+margin-top:-100px;
+}
+p.text-vertical-PRI{
+margin-top:-70px;
+}
+p.text-vertical-AD{
+margin-top:-170px;
+}
+.bradius4{
+border-radius:4px;
+}
+.bradius8{
+border-radius:8px;
+}
+.pbottom2{
+padding-bottom:2px;
+}
+.pbottom10{
+padding-bottom:10px;
+}
+table.fixed{
+text-layout:fixed;
+}
+.red,.tachar{
+color:red;
+}
+.tachar{
+text-decoration:line-through;
+}
+td.va{
+vertical-align:top;
+}
+.array{
+border: 1px solid blue;
+text-align:center;
+font-weight:bold;
+}
+td.array5{
+border: 1px dashed blue;
+background-color:lime;
+width:200px;
+}
+td.array0{
+border: 1px dashed blue;
+background-color:pink;
+width:40px;
+}
+td.arraynull{
+border: 1px dashed blue;
+background-color:white;
+width:60px;
+}
+hr.underline{
+border-top:1px dotted #000;
+text-decoration:none;
+margin-top:-25px;
+}
