@@ -43,11 +43,11 @@ use_dark_psterm=1
 big_icons=0
 check_for_updates=1
 fixed_port=0
-history=E:\DAM 1\Programacion\PSeInt\bucles\es_numero_primo_con_funcion.psc
-history=E:\DAM 1\Programacion\PSeInt\bucles\_funcion_.psc
-history=E:\DAM 1\Programacion\PSeInt\bucles\leer_numero_al_reves.psc
+history=E:\DAM 1\Programacion\PSeInt\bucles\Multiplo_de_9_sumando_digitos_de_cadena_de_numeros.v2.psc
+history=E:\DAM 1\Programacion\PSeInt\bucles\Multiplo_de_9_sumando_digitos_de_cadena_de_numeros.psc
+history=E:\DAM 1\Programacion\PSeInt\bucles\multiplos_3.psc
+history=E:\DAM 1\Programacion\PSeInt\bucles\elevar.psc
 history=E:\DAM 1\Programacion\PSeInt\bucles\Primo_O_No.psc
-history=E:\DAM 1\Programacion\PSeInt\bucles\triangulo.psc
 
 profile=Flexible
 profile:source=list
