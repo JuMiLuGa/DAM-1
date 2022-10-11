@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="es">
+
+	<head>
+		 <meta charset="UTF-8">
+         <title>Formulario</title>  
+	</head>
+
+	<body align="center" style="color: white;" bgcolor="black">
+		<h1>Formulario en HTML</h1>
+        <form>
+            <h3>Input:</h3>
+            <input type="text" id="username" name="fname">
+            <label for="username">username</label>
+            
+            <br>
+            <br>
+            
+            <h3>Input2</h3>
+            <input type="password" id="password" name="fpasw">
+            <label for="password">password</label>
+
+            <br>
+            <br>
+
+            <h3>Radio Button</h3>
+
+            <input type="radio" id="cebolla" name="gusto">
+            <label for="cebolla">con cebolla</label>
+
+            <!-- Tienen que compartir NAME para que se unan entre ellas -->
+
+            <input type="radio" id="sincebolla" name="gusto">
+            <label for="sincebolla">sin cebolla</label>
+
+            <br>
+            <br>
+
+            <h3>Checkbox</h3>
+
+            <input type="checkbox" id="vehiculo1" name="vehiculo">
+            <label for="vehiculo">Tengo una bici</label>
+            
+            <br>
+            <br>
+
+            <input type="checkbox" id="vehiculo2" name="vehiculo">
+            <label for="vehiculo">Tengo un coche</label>
+
+            <br>
+            <br>
+
+            <input type="checkbox" id="vehiculo3" name="vehiculo">
+            <label for="vehiculo">Tengo una moto</label>
+
+            <br>
+            <br>
+
+            <h3>submit</h3>
+
+            <input type="submit">
+            <input type="button" value="Si" onclick="unaaccion">
+
+            <br>
+            <br>
+
+            <h3>Number</h3>
+            
+            <input type="number" min="0" max="10" step="2"> <!-- solo permite numeros entre 0 y 10 con las flechas va de 2 en 2 -->
+
+            <br>
+            <br>
+
+            <h3>Time & Date</h3>
+            
+            <input type="time" id="reloj" name="tiempo">
+            <input type="date"  id="fecha" name="fechanacimiento" min="2000-01-01" max="2025-01-01"> <!-- Permite fechas entre 01/01/2000 y 01/01/2025 -->
+            
+            <br>
+            <br>
+
+            <h3>email</h3>
+
+            <input type="email" id="email" name="correo">
+
+            <br>
+            <br>
+
+            <h3>Color</h3>
+
+            <input type="color" id="colorfav" name="color" value="#ff0000">
+
+            <br>
+            <br>
+
+            <h3>File</h3>
+
+            <input type="file" id="file" name="archivo">
+
+            <br>
+            <br>
+
+            <h3>Range</h3>
+            <input type="range" id="rango" name="rango" min="0" max="100">
+
+            <br>
+            <br> 
+        </form>
+
+        <h2>Elementos Adicionales</h2> <!-- No tienen por que estar dentro de la etiqueta form -->
+
+        <br>
+        <br>
+        
+        <h3>text area</h3>
+
+        <textarea name="texto" id="texto" cols="30" rows="10">Texto de ejemplo...</textarea> <!-- Rows = Filas & Cols = Columnas-->
+
+        <br>
+        <br>
+
+        <h3>Button</h3>
+<fieldset>
+    <legend>Botones</legend> <!-- ejemplo de encuadrado empieza con fielset y legend es el nombre que aparece-->
+        <button type="button" id="boton1" onclick="unaaccion">Pulsame</button>
+        <button type="reset" id="boton2">Reiniciar</button>
+        <button type="submit" id="boton3">Enviar</button>
+</fieldset>
+        <br>
+        <br>
+
+        <h3>Select</h3>
+
+        <label for="coche">Elegir un coche:</label>
+
+        <select name="coche" id="coche">
+            <option value="volvo">Volvo</option>
+             <option value="saab">Saab</option>
+             <option value="mercedes">Mercedes</option>
+              <option value="audi">Audi</option>
+        </select>
+
+        <br>
+        <br>
+
+        <h3>Datalist</h3>
+
+        <label for="navegador">Elegir un navegador de la lista:</label>
+        <input list="navegadores" name="navegador" id="navegador">
+
+        <datalist id="navegadores">
+         <option value="Edge">
+         <option value="Firefox">
+         <option value="Chrome">
+         <option value="Opera">
+         <option value="Safari">
+        </datalist>
+
+</html>
