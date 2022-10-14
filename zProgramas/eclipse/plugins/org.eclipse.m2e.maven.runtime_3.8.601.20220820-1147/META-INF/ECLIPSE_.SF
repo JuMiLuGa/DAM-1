@@ -1,0 +1,143 @@
+Signature-Version: 1.0
+Created-By: 11.0.11 (AdoptOpenJDK)
+SHA-256-Digest-Manifest: 1skApDiMl6wIwT9AvLmoIuEOjGqkHRfjTXurTB4mVxc=
+SHA-256-Digest-Manifest-Main-Attributes: vNHy7h5LjWWHaP8Y5kCt3a6uz9BBFGd
+ kkFawobq8sT8=
+
+Name: simplelogger.properties
+SHA-256-Digest: u5SapMJyIPMT6JipO+lN4PB3j1RhnlaJRSB0cuHj2LQ=
+
+Name: jars/plexus-component-annotations-2.1.0.jar
+SHA-256-Digest: D4m9CO3RpHaVxclg9+FDIsck5w17NlyYG4hDfOW0Cc4=
+
+Name: jars/maven-settings-builder-3.8.6.jar
+SHA-256-Digest: N+DtbDA1WGP+B9zH9MB5m9pXg+I+pI7GqbiP2xMP15Q=
+
+Name: jars/maven-resolver-impl-1.6.3.jar
+SHA-256-Digest: IpupV5tXcXjrEh4DWoMKXYyzgncnspwGTG6g32+rMkA=
+
+Name: jars/maven-model-builder-3.8.6.jar
+SHA-256-Digest: uy97yIjhSJqqYu0ImGRFHzMvlN0V0uMFtV1JU30uLR8=
+
+Name: jars/maven-resolver-util-1.6.3.jar
+SHA-256-Digest: Lnj3wFJjhdklKGPRp7AyCK/crAO4LcHbQupUfDDUfdo=
+
+Name: jars/maven-compat-3.8.6.jar
+SHA-256-Digest: j6fXhnb0xPib4o9gtBNh9ZEUunSvSU7qH9knwYBzpI8=
+
+Name: about_files/LICENSE-2.0.txt
+SHA-256-Digest: pgHwXlfwoswdBsTcqm60MdG9UCR1vmm7cVCWX+ZHJaw=
+
+Name: jars/maven-resolver-spi-1.6.3.jar
+SHA-256-Digest: yHNNON8NZsFy2d2Job3iCxE0yMwa9vxVhH49gNEvA+M=
+
+Name: jars/maven-settings-3.8.6.jar
+SHA-256-Digest: n+0WdqFbqGMIwyyyt/a2zk2P3pmzH0Kzcd8kVPlxcE4=
+
+Name: jars/maven-model-3.8.6.jar
+SHA-256-Digest: WR2tpDoZezqgHPibNhmDPPsAhTgNV08ERygVUSD7yHU=
+
+Name: jars/maven-builder-support-3.8.6.jar
+SHA-256-Digest: 4UrlxNuJF8u7ZJb0f31Xmu6toQrkgi5DtNSx/GiKRys=
+
+Name: jars/wagon-provider-api-3.5.1.jar
+SHA-256-Digest: XSfgmNfdi8SF7EAXXUvJUOdatOS6K28sW139/vrGpfM=
+
+Name: jars/org.eclipse.sisu.inject-0.3.5.jar
+SHA-256-Digest: DHDQA1KAIAW7mLvF7cgGkcpGtTkMZ05FF7O54Kada3s=
+
+Name: jars/org.eclipse.sisu.plexus-0.3.5.jar
+SHA-256-Digest: eeGYVtIh21dg2qga2PCECX1eFC4NuuAv03KaPfH6AVg=
+
+Name: jars/maven-resolver-transport-wagon-1.6.3.jar
+SHA-256-Digest: GJ2vMUunNRZaeVLt3UUWhqmXqAN7/iWHHurMjoq+Ed8=
+
+Name: jars/maven-repository-metadata-3.8.6.jar
+SHA-256-Digest: +FrTrjCvB1QHDXhI0K3XdoiR6/rw/4chVTKZirWV1GA=
+
+Name: jars/maven-resolver-api-1.6.3.jar
+SHA-256-Digest: 64UyXI68J/4VS6RIV4IWKdRBAaRptDadEi/sZ7gcHwA=
+
+Name: jars/jansi-2.4.0.jar
+SHA-256-Digest: Haf1QJk9b33bxUEcM71gkB7c4xoJkRmb08AsCtKbkxk=
+
+Name: META-INF/maven/org.eclipse.m2e/org.eclipse.m2e.maven.runtime/pom.x
+ ml
+SHA-256-Digest: BAyg1GvMTS3hW/Z2B8VY57O+LTP3zYWgiT0wic24z2k=
+
+Name: jars/maven-core-3.8.6.jar
+SHA-256-Digest: Eovesd1qTi/vSpMtNzJlMvAH8jnqP5Ftj4thEwFlboc=
+
+Name: jars/maven-plugin-api-3.8.6.jar
+SHA-256-Digest: 4tTYOIYDKq/W0h0n0xCc1N7goXUaNuHTMmCdR4y4VwQ=
+
+Name: jars/aether-connector-okhttp-0.17.8.jar
+SHA-256-Digest: +YAe1ITdVzByxc0o5ZwM2Ha8+inWZir5b8wGNFaooco=
+
+Name: META-INF/maven/org.eclipse.m2e/org.eclipse.m2e.maven.runtime/pom.p
+ roperties
+SHA-256-Digest: JJO5W6QxI5FOuQWA7zSCERT8m5qa82PtsSvFxQ8EYKo=
+
+Name: about.html
+SHA-256-Digest: qI5bx4h1AqyFp0NSl1RN5oagpQQPv0NutLKpkZutOkc=
+
+Name: jars/commons-cli-1.4.jar
+SHA-256-Digest: frCALsk+L1aYe8XPg1AHnNkIZydj1xrKhuCS7nClz0k=
+
+Name: jars/plexus-sec-dispatcher-2.0.jar
+SHA-256-Digest: EqIdOxE8Mb4zW5gbfoxaQ7xAAfV4V2Y9BLI7sa4LRkg=
+
+Name: jars/maven-resolver-provider-3.8.6.jar
+SHA-256-Digest: pfW8PTEsV7Drc8Bq6i4WHD6WWvxCuSXUU1Pe+ayX7H4=
+
+Name: jars/maven-artifact-3.8.6.jar
+SHA-256-Digest: w4D/HaPAYxoJuoFTqHIy8kj9avW6cVw5045vqsqkiMM=
+
+Name: jars/guice-4.2.2-no_aop.jar
+SHA-256-Digest: spqVDlDU4lxvyEPedVS+y1vqVLnv3hW2i68N1Tww26Q=
+
+Name: jars/javax.annotation-api-1.2.jar
+SHA-256-Digest: SkpLHfuC6FK1hzRsWfGeH3knuJ7Vi1G3lm45NZLjSII=
+
+Name: jars/plexus-classworlds-2.6.0.jar
+SHA-256-Digest: N+K1QG12NsE+Z4j1FJGQeT1SGNJ+XI2zik4X6c+MCLg=
+
+Name: jars/maven-shared-utils-3.3.4.jar
+SHA-256-Digest: q9lP9AuUq6ndMvMqpSS0JID68jW6MHqSoaLiyt/UarM=
+
+Name: jars/plexus-utils-3.3.1.jar
+SHA-256-Digest: awcrE8szqcYAcFfeZ0N9lQuGLjquVFpc7aZxEulJnpc=
+
+Name: jars/maven-embedder-3.8.6.jar
+SHA-256-Digest: pF/imV4pl1R+HhKaxB4hAAoXXiDZDuGtwVCtt/3F1X4=
+
+Name: jars/maven-resolver-connector-basic-1.6.3.jar
+SHA-256-Digest: fQTGocTudPxOsRtkp4SF0gHBCuyfDnLDPPnORpcpfAk=
+
+Name: jars/wagon-file-3.5.1.jar
+SHA-256-Digest: NJ/Q6SCH0QSgrPbb7KDPmiJpqIZDotsvLDvFJaDGGtY=
+
+Name: jars/plexus-build-api-0.0.7.jar
+SHA-256-Digest: d2XoTzYIPoPhHBON9itLN7zjB7F5D8B/LXxH4izFpwE=
+
+Name: jars/maven-slf4j-provider-3.8.6.jar
+SHA-256-Digest: E88drfJ84FO8jKQV2lxl6Qcv87/+Tj7/imEW6nxCwpU=
+
+Name: jars/okio-1.17.3.jar
+SHA-256-Digest: xKskv3AJ279GlgStgGj9mJozJSQU+IkyzchRYIDVUZQ=
+
+Name: jars/okhttp-3.14.1.jar
+SHA-256-Digest: ugthZ9iCec120xTzlBdnKeyaaqyyzhK3jbOXyqNYID8=
+
+Name: jars/commons-io-2.6.jar
+SHA-256-Digest: tw4gR55CDfAQLnJ5+TAk7EUmV5X8XptzfkkvN/782jc=
+
+Name: jars/plexus-interpolation-1.26.jar
+SHA-256-Digest: dkjbyZc4IYz9FVKzF2kgqJCCSlsmb2iaQDOA5NyVHKs=
+
+Name: jars/commons-lang3-3.8.1.jar
+SHA-256-Digest: LCcJ28CHKPAtJmWbbGbHBnIZ4A/LtOSr0yP3EDq3WZA=
+
+Name: jars/plexus-cipher-2.0.jar
+SHA-256-Digest: eokLSXj9TGCCnRztIpEDDG0RM3x3yeiqp+z/njAmEmQ=
+

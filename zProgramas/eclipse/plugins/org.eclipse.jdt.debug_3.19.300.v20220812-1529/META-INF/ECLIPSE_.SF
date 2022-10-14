@@ -1,0 +1,24 @@
+Signature-Version: 1.0
+Created-By: 11.0.11 (AdoptOpenJDK)
+SHA-256-Digest-Manifest: uLDa9LO5pkH2LsXesq8XvyAm0VTd19oIzbT7NUjMH0M=
+SHA-256-Digest-Manifest-Main-Attributes: rOHc71lW9hZRhETEWUqQybvNMoxsPOa
+ qzHqYWJ7+zj0=
+
+Name: about.html
+SHA-256-Digest: ncO+WCNUIJ0JLCOl/ot53yopwTqvvtVu0qSgblesdYo=
+
+Name: plugin.xml
+SHA-256-Digest: dxPbLqa9V6hXqVUAV9ryAVmpIpkUeTflqiNsvrVfi60=
+
+Name: plugin.properties
+SHA-256-Digest: 5z68+zziBizLh6mChYYxnbfkj2KtN3uK3vZUvSrdnBc=
+
+Name: .api_description
+SHA-256-Digest: SDm85hmMbH/RygZxfBca/OYNOocgylhsVj1Ou705CaE=
+
+Name: .options
+SHA-256-Digest: kJycZkplIvymLb+2FdSCAY2WYLpePjyKfyVOCQmvRiA=
+
+Name: jdimodel.jar
+SHA-256-Digest: n4KPNselmDbRM4gJTduVJ9xSF3mYJtjIUVXM1oeIo18=
+
