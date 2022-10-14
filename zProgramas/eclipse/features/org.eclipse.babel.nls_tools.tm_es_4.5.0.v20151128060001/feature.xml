@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<feature
+	id="org.eclipse.babel.nls_tools.tm_es"
+	label="Babel Language Pack for tools.tm in Spanish (18.11%)"
+	image="eclipse_update_120.jpg"
+	provider-name="%providerName"
+	version="4.5.0.v20151128060001">
+	<copyright>
+		%copyright
+	</copyright>
+	<license url="%licenseURL">
+		%license
+	</license>
+	<description>Babel Language Pack for tools.tm in Spanish</description>
+	<plugin fragment="true" id="org.eclipse.rse.connectorservice.ssh.nl_es" unpack="false" version="4.5.0.v20151128060001" download-size="2494" install-size="2494" />
+	<plugin fragment="true" id="org.eclipse.rse.core.nl_es" unpack="false" version="4.5.0.v20151128060001" download-size="2102" install-size="2102" />
+	<plugin fragment="true" id="org.eclipse.rse.dstore.security.nl_es" unpack="false" version="4.5.0.v20151128060001" download-size="2353" install-size="2353" />
+	<plugin fragment="true" id="org.eclipse.rse.examples.dstore.nl_es" unpack="false" version="4.5.0.v20151128060001" download-size="1376" install-size="1376" />
+	<plugin fragment="true" id="org.eclipse.rse.examples.tutorial.nl_es" unpack="false" version="4.5.0.v20151128060001" download-size="1668" install-size="1668" />
+	<plugin fragment="true" id="org.eclipse.rse.files.ui.nl_es" unpack="false" version="4.5.0.v20151128060001" download-size="3373" install-size="3373" />
+	<plugin fragment="true" id="org.eclipse.rse.importexport.nl_es" unpack="false" version="4.5.0.v20151128060001" download-size="4194" install-size="4194" />
+	<plugin fragment="true" id="org.eclipse.rse.processes.ui.nl_es" unpack="false" version="4.5.0.v20151128060001" download-size="3122" install-size="3122" />
+	<plugin fragment="true" id="org.eclipse.rse.services.dstore.nl_es" unpack="false" version="4.5.0.v20151128060001" download-size="1630" install-size="1630" />
+	<plugin fragment="true" id="org.eclipse.rse.services.files.ftp.nl_es" unpack="false" version="4.5.0.v20151128060001" download-size="2388" install-size="2388" />
+	<plugin fragment="true" id="org.eclipse.rse.services.nl_es" unpack="false" version="4.5.0.v20151128060001" download-size="2848" install-size="2848" />
+	<plugin fragment="true" id="org.eclipse.rse.shells.ui.nl_es" unpack="false" version="4.5.0.v20151128060001" download-size="2604" install-size="2604" />
+	<plugin fragment="true" id="org.eclipse.rse.subsystems.files.core.nl_es" unpack="false" version="4.5.0.v20151128060001" download-size="2677" install-size="2677" />
+	<plugin fragment="true" id="org.eclipse.rse.subsystems.files.dstore.nl_es" unpack="false" version="4.5.0.v20151128060001" download-size="1372" install-size="1372" />
+	<plugin fragment="true" id="org.eclipse.rse.subsystems.files.ftp.nl_es" unpack="false" version="4.5.0.v20151128060001" download-size="1370" install-size="1370" />
+	<plugin fragment="true" id="org.eclipse.rse.subsystems.wince.nl_es" unpack="false" version="4.5.0.v20151128060001" download-size="1384" install-size="1384" />
+	<plugin fragment="true" id="org.eclipse.rse.terminals.ui.nl_es" unpack="false" version="4.5.0.v20151128060001" download-size="1372" install-size="1372" />
+	<plugin fragment="true" id="org.eclipse.rse.tests.framework.nl_es" unpack="false" version="4.5.0.v20151128060001" download-size="1417" install-size="1417" />
+	<plugin fragment="true" id="org.eclipse.rse.ui.nl_es" unpack="false" version="4.5.0.v20151128060001" download-size="5776" install-size="5776" />
+	<plugin fragment="true" id="org.eclipse.rse.useractions.nl_es" unpack="false" version="4.5.0.v20151128060001" download-size="3297" install-size="3297" />
+</feature>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<feature
+	id="org.eclipse.babel.nls_tools.tracecompass_es"
+	label="Babel Language Pack for tools.tracecompass in Spanish (16.73%)"
+	image="eclipse_update_120.jpg"
+	provider-name="%providerName"
+	version="4.5.0.v20151128060001">
+	<copyright>
+		%copyright
+	</copyright>
+	<license url="%licenseURL">
+		%license
+	</license>
+	<description>Babel Language Pack for tools.tracecompass in Spanish</description>
+	<plugin fragment="true" id="org.eclipse.tracecompass.analysis.os.linux.ui.nl_es" unpack="false" version="4.5.0.v20151128060001" download-size="4254" install-size="4254" />
+	<plugin fragment="true" id="org.eclipse.tracecompass.btf.core.nl_es" unpack="false" version="4.5.0.v20151128060001" download-size="2059" install-size="2059" />
+	<plugin fragment="true" id="org.eclipse.tracecompass.gdbtrace.core.nl_es" unpack="false" version="4.5.0.v20151128060001" download-size="2485" install-size="2485" />
+	<plugin fragment="true" id="org.eclipse.tracecompass.gdbtrace.ui.nl_es" unpack="false" version="4.5.0.v20151128060001" download-size="2905" install-size="2905" />
+	<plugin fragment="true" id="org.eclipse.tracecompass.lttng2.control.ui.nl_es" unpack="false" version="4.5.0.v20151128060001" download-size="3875" install-size="3875" />
+	<plugin fragment="true" id="org.eclipse.tracecompass.lttng2.kernel.ui.nl_es" unpack="false" version="4.5.0.v20151128060001" download-size="1381" install-size="1381" />
+	<plugin fragment="true" id="org.eclipse.tracecompass.lttng2.ust.ui.nl_es" unpack="false" version="4.5.0.v20151128060001" download-size="2870" install-size="2870" />
+	<plugin fragment="true" id="org.eclipse.tracecompass.rcp.ui.nl_es" unpack="false" version="4.5.0.v20151128060001" download-size="2912" install-size="2912" />
+	<plugin fragment="true" id="org.eclipse.tracecompass.tmf.analysis.xml.ui.nl_es" unpack="false" version="4.5.0.v20151128060001" download-size="4427" install-size="4427" />
+	<plugin fragment="true" id="org.eclipse.tracecompass.tmf.core.nl_es" unpack="false" version="4.5.0.v20151128060001" download-size="4802" install-size="4802" />
+	<plugin fragment="true" id="org.eclipse.tracecompass.tmf.pcap.core.nl_es" unpack="false" version="4.5.0.v20151128060001" download-size="3390" install-size="3390" />
+	<plugin fragment="true" id="org.eclipse.tracecompass.tmf.pcap.ui.nl_es" unpack="false" version="4.5.0.v20151128060001" download-size="2635" install-size="2635" />
+	<plugin fragment="true" id="org.eclipse.tracecompass.tmf.remote.ui.nl_es" unpack="false" version="4.5.0.v20151128060001" download-size="2888" install-size="2888" />
+	<plugin fragment="true" id="org.eclipse.tracecompass.tmf.ui.nl_es" unpack="false" version="4.5.0.v20151128060001" download-size="13074" install-size="13074" />
+</feature>

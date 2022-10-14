@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<feature
+	id="org.eclipse.babel.nls_technology.subversive_es"
+	label="Babel Language Pack for technology.subversive in Spanish (17.93%)"
+	image="eclipse_update_120.jpg"
+	provider-name="%providerName"
+	version="4.5.0.v20151128060001">
+	<copyright>
+		%copyright
+	</copyright>
+	<license url="%licenseURL">
+		%license
+	</license>
+	<description>Babel Language Pack for technology.subversive in Spanish</description>
+	<plugin fragment="true" id="org.eclipse.team.svn.core.nl_es" unpack="false" version="4.5.0.v20151128060001" download-size="2908" install-size="2908" />
+	<plugin fragment="true" id="org.eclipse.team.svn.help.nl_es" unpack="false" version="4.5.0.v20151128060001" download-size="1372" install-size="1372" />
+	<plugin fragment="true" id="org.eclipse.team.svn.m2e.nl_es" unpack="false" version="4.5.0.v20151128060001" download-size="1371" install-size="1371" />
+	<plugin fragment="true" id="org.eclipse.team.svn.mylyn.nl_es" unpack="false" version="4.5.0.v20151128060001" download-size="1373" install-size="1373" />
+	<plugin fragment="true" id="org.eclipse.team.svn.nl_es" unpack="false" version="4.5.0.v20151128060001" download-size="1369" install-size="1369" />
+	<plugin fragment="true" id="org.eclipse.team.svn.resource.ignore.rules.jdt.nl_es" unpack="false" version="4.5.0.v20151128060001" download-size="1385" install-size="1385" />
+	<plugin fragment="true" id="org.eclipse.team.svn.revision.graph.nl_es" unpack="false" version="4.5.0.v20151128060001" download-size="2715" install-size="2715" />
+	<plugin fragment="true" id="org.eclipse.team.svn.ui.nl_es" unpack="false" version="4.5.0.v20151128060001" download-size="7588" install-size="7588" />
+	<plugin fragment="true" id="org.eclipse.team.svn.ui.startup.nl_es" unpack="false" version="4.5.0.v20151128060001" download-size="1354" install-size="1354" />
+</feature>

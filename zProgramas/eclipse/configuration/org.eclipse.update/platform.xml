@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<config date="1662666311607" transient="false">
+<config date="1665761145534" transient="false">
 	<site updateable="true" url="platform:/base/" enabled="true" policy="USER-EXCLUDE">
 		<feature id="org.eclipse.m2e.feature" version="2.0.4.20220904-1703" url="features/org.eclipse.m2e.feature_2.0.4.20220904-1703/" plugin-identifier="org.eclipse.m2e.core">
 		</feature>
@@ -90,6 +90,48 @@
 		<feature id="org.eclipse.justj.openjdk.hotspot.jre.full" version="17.0.4.v20220903-1038" url="features/org.eclipse.justj.openjdk.hotspot.jre.full_17.0.4.v20220903-1038/">
 		</feature>
 		<feature id="org.eclipse.userstorage" version="1.2.0.v20210517-0327" url="features/org.eclipse.userstorage_1.2.0.v20210517-0327/">
+		</feature>
+	</site>
+	<site updateable="true" url="platform:/base/" enabled="true" policy="USER-EXCLUDE">
+		<feature id="org.eclipse.babel.nls_tools.gef_es" version="4.5.0.v20151128060001" url="features/org.eclipse.babel.nls_tools.gef_es_4.5.0.v20151128060001/">
+		</feature>
+		<feature id="org.eclipse.babel.nls_mylyn_es" version="4.5.0.v20151128060001" url="features/org.eclipse.babel.nls_mylyn_es_4.5.0.v20151128060001/">
+		</feature>
+		<feature id="org.eclipse.babel.nls_technology.egit_es" version="4.5.0.v20151128060001" url="features/org.eclipse.babel.nls_technology.egit_es_4.5.0.v20151128060001/">
+		</feature>
+		<feature id="org.eclipse.babel.nls_modeling.graphiti_es" version="4.5.0.v20151128060001" url="features/org.eclipse.babel.nls_modeling.graphiti_es_4.5.0.v20151128060001/">
+		</feature>
+		<feature id="org.eclipse.babel.nls_webtools_es" version="4.5.0.v20151128060001" url="features/org.eclipse.babel.nls_webtools_es_4.5.0.v20151128060001/">
+		</feature>
+		<feature id="org.eclipse.babel.nls_tools.pdt_es" version="4.5.0.v20151128060001" url="features/org.eclipse.babel.nls_tools.pdt_es_4.5.0.v20151128060001/">
+		</feature>
+		<feature id="org.eclipse.babel.nls_rt.rap_es" version="4.5.0.v20151128060001" url="features/org.eclipse.babel.nls_rt.rap_es_4.5.0.v20151128060001/">
+		</feature>
+		<feature id="org.eclipse.babel.nls_tools.cdt_es" version="4.5.0.v20151128060001" url="features/org.eclipse.babel.nls_tools.cdt_es_4.5.0.v20151128060001/">
+		</feature>
+		<feature id="org.eclipse.babel.nls_tools.tracecompass_es" version="4.5.0.v20151128060001" url="features/org.eclipse.babel.nls_tools.tracecompass_es_4.5.0.v20151128060001/">
+		</feature>
+		<feature id="org.eclipse.babel.nls_technology.dltk_es" version="4.5.0.v20151128060001" url="features/org.eclipse.babel.nls_technology.dltk_es_4.5.0.v20151128060001/">
+		</feature>
+		<feature id="org.eclipse.babel.nls_technology.subversive_es" version="4.5.0.v20151128060001" url="features/org.eclipse.babel.nls_technology.subversive_es_4.5.0.v20151128060001/">
+		</feature>
+		<feature id="org.eclipse.babel.nls_modeling.emf_es" version="4.5.0.v20151128060001" url="features/org.eclipse.babel.nls_modeling.emf_es_4.5.0.v20151128060001/">
+		</feature>
+		<feature id="org.eclipse.babel.nls_eclipse_es" version="4.5.0.v20151128060001" url="features/org.eclipse.babel.nls_eclipse_es_4.5.0.v20151128060001/">
+		</feature>
+		<feature id="org.eclipse.babel.nls_technology.packaging_es" version="4.5.0.v20151128060001" url="features/org.eclipse.babel.nls_technology.packaging_es_4.5.0.v20151128060001/">
+		</feature>
+		<feature id="org.eclipse.babel.nls_modeling.mdt.bpmn2_es" version="4.5.0.v20151128060001" url="features/org.eclipse.babel.nls_modeling.mdt.bpmn2_es_4.5.0.v20151128060001/">
+		</feature>
+		<feature id="org.eclipse.babel.nls_tools.tm_es" version="4.5.0.v20151128060001" url="features/org.eclipse.babel.nls_tools.tm_es_4.5.0.v20151128060001/">
+		</feature>
+		<feature id="org.eclipse.babel.nls_birt_es" version="4.5.0.v20151128060001" url="features/org.eclipse.babel.nls_birt_es_4.5.0.v20151128060001/">
+		</feature>
+		<feature id="org.eclipse.babel.nls_technology.recommenders_es" version="4.5.0.v20151128060001" url="features/org.eclipse.babel.nls_technology.recommenders_es_4.5.0.v20151128060001/">
+		</feature>
+		<feature id="org.eclipse.babel.nls_datatools_es" version="4.5.0.v20151128060001" url="features/org.eclipse.babel.nls_datatools_es_4.5.0.v20151128060001/">
+		</feature>
+		<feature id="org.eclipse.babel.nls_soa.bpmn2-modeler_es" version="4.5.0.v20151128060001" url="features/org.eclipse.babel.nls_soa.bpmn2-modeler_es_4.5.0.v20151128060001/">
 		</feature>
 	</site>
 </config>

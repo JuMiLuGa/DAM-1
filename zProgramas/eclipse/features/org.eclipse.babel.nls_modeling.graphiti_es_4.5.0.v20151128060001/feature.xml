@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<feature
+	id="org.eclipse.babel.nls_modeling.graphiti_es"
+	label="Babel Language Pack for modeling.graphiti in Spanish (23.47%)"
+	image="eclipse_update_120.jpg"
+	provider-name="%providerName"
+	version="4.5.0.v20151128060001">
+	<copyright>
+		%copyright
+	</copyright>
+	<license url="%licenseURL">
+		%license
+	</license>
+	<description>Babel Language Pack for modeling.graphiti in Spanish</description>
+	<plugin fragment="true" id="org.eclipse.graphiti.examples.chess.nl_es" unpack="false" version="4.5.0.v20151128060001" download-size="1374" install-size="1374" />
+	<plugin fragment="true" id="org.eclipse.graphiti.examples.common.nl_es" unpack="false" version="4.5.0.v20151128060001" download-size="2110" install-size="2110" />
+	<plugin fragment="true" id="org.eclipse.graphiti.examples.composite.nl_es" unpack="false" version="4.5.0.v20151128060001" download-size="1381" install-size="1381" />
+	<plugin fragment="true" id="org.eclipse.graphiti.examples.filesystem.mm.nl_es" unpack="false" version="4.5.0.v20151128060001" download-size="1379" install-size="1379" />
+	<plugin fragment="true" id="org.eclipse.graphiti.examples.filesystem.nl_es" unpack="false" version="4.5.0.v20151128060001" download-size="1377" install-size="1377" />
+	<plugin fragment="true" id="org.eclipse.graphiti.examples.tutorial.nl_es" unpack="false" version="4.5.0.v20151128060001" download-size="2085" install-size="2085" />
+	<plugin fragment="true" id="org.eclipse.graphiti.nl_es" unpack="false" version="4.5.0.v20151128060001" download-size="2054" install-size="2054" />
+	<plugin fragment="true" id="org.eclipse.graphiti.pattern.nl_es" unpack="false" version="4.5.0.v20151128060001" download-size="1368" install-size="1368" />
+	<plugin fragment="true" id="org.eclipse.graphiti.releng.nl_es" unpack="false" version="4.5.0.v20151128060001" download-size="1384" install-size="1384" />
+	<plugin fragment="true" id="org.eclipse.graphiti.tools.newprojectwizard.nl_es" unpack="false" version="4.5.0.v20151128060001" download-size="2668" install-size="2668" />
+	<plugin fragment="true" id="org.eclipse.graphiti.ui.nl_es" unpack="false" version="4.5.0.v20151128060001" download-size="2766" install-size="2766" />
+</feature>

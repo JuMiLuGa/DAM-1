@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<feature
+	id="org.eclipse.babel.nls_modeling.mdt.bpmn2_es"
+	label="Babel Language Pack for modeling.mdt.bpmn2 in Spanish (27.76%)"
+	image="eclipse_update_120.jpg"
+	provider-name="%providerName"
+	version="4.5.0.v20151128060001">
+	<copyright>
+		%copyright
+	</copyright>
+	<license url="%licenseURL">
+		%license
+	</license>
+	<description>Babel Language Pack for modeling.mdt.bpmn2 in Spanish</description>
+	<plugin fragment="true" id="org.eclipse.bpmn2.edit.nl_es" unpack="false" version="4.5.0.v20151128060001" download-size="3307" install-size="3307" />
+	<plugin fragment="true" id="org.eclipse.bpmn2.editor.nl_es" unpack="false" version="4.5.0.v20151128060001" download-size="1951" install-size="1951" />
+	<plugin fragment="true" id="org.eclipse.bpmn2.nl_es" unpack="false" version="4.5.0.v20151128060001" download-size="1363" install-size="1363" />
+</feature>

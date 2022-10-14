@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<feature
+	id="org.eclipse.babel.nls_technology.packaging_es"
+	label="Babel Language Pack for technology.packaging in Spanish (30.56%)"
+	image="eclipse_update_120.jpg"
+	provider-name="%providerName"
+	version="4.5.0.v20151128060001">
+	<copyright>
+		%copyright
+	</copyright>
+	<license url="%licenseURL">
+		%license
+	</license>
+	<description>Babel Language Pack for technology.packaging in Spanish</description>
+	<plugin fragment="true" id="org.eclipse.epp.logging.aeri.ui.nl_es" unpack="false" version="4.5.0.v20151128060001" download-size="3053" install-size="3053" />
+	<plugin fragment="true" id="org.eclipse.epp.package.committers.nl_es" unpack="false" version="4.5.0.v20151128060001" download-size="2686" install-size="2686" />
+	<plugin fragment="true" id="org.eclipse.epp.package.jee.nl_es" unpack="false" version="4.5.0.v20151128060001" download-size="1595" install-size="1595" />
+</feature>

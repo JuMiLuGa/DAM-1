@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<feature
+	id="org.eclipse.babel.nls_technology.recommenders_es"
+	label="Babel Language Pack for technology.recommenders in Spanish (8.2%)"
+	image="eclipse_update_120.jpg"
+	provider-name="%providerName"
+	version="4.5.0.v20151128060001">
+	<copyright>
+		%copyright
+	</copyright>
+	<license url="%licenseURL">
+		%license
+	</license>
+	<description>Babel Language Pack for technology.recommenders in Spanish</description>
+	<plugin fragment="true" id="org.eclipse.recommenders.completion.rcp.nl_es" unpack="false" version="4.5.0.v20151128060001" download-size="2484" install-size="2484" />
+	<plugin fragment="true" id="org.eclipse.recommenders.constructors.rcp.nl_es" unpack="false" version="4.5.0.v20151128060001" download-size="1615" install-size="1615" />
+	<plugin fragment="true" id="org.eclipse.recommenders.coordinates.rcp.nl_es" unpack="false" version="4.5.0.v20151128060001" download-size="2637" install-size="2637" />
+	<plugin fragment="true" id="org.eclipse.recommenders.models.rcp.nl_es" unpack="false" version="4.5.0.v20151128060001" download-size="3065" install-size="3065" />
+	<plugin fragment="true" id="org.eclipse.recommenders.rcp.nl_es" unpack="false" version="4.5.0.v20151128060001" download-size="2796" install-size="2796" />
+	<plugin fragment="true" id="org.eclipse.recommenders.snipmatch.rcp.nl_es" unpack="false" version="4.5.0.v20151128060001" download-size="3317" install-size="3317" />
+</feature>

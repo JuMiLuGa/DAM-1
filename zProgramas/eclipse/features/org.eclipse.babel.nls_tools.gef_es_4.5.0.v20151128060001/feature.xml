@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<feature
+	id="org.eclipse.babel.nls_tools.gef_es"
+	label="Babel Language Pack for tools.gef in Spanish (51.8%)"
+	image="eclipse_update_120.jpg"
+	provider-name="%providerName"
+	version="4.5.0.v20151128060001">
+	<copyright>
+		%copyright
+	</copyright>
+	<license url="%licenseURL">
+		%license
+	</license>
+	<description>Babel Language Pack for tools.gef in Spanish</description>
+	<plugin fragment="true" id="org.eclipse.draw2d.doc.isv.nl_es" unpack="false" version="4.5.0.v20151128060001" download-size="1386" install-size="1386" />
+	<plugin fragment="true" id="org.eclipse.gef.doc.isv.nl_es" unpack="false" version="4.5.0.v20151128060001" download-size="1413" install-size="1413" />
+	<plugin fragment="true" id="org.eclipse.gef.examples.logic.nl_es" unpack="false" version="4.5.0.v20151128060001" download-size="2470" install-size="2470" />
+	<plugin fragment="true" id="org.eclipse.gef.examples.ui.pde.nl_es" unpack="false" version="4.5.0.v20151128060001" download-size="1386" install-size="1386" />
+	<plugin fragment="true" id="org.eclipse.gef.nl_es" unpack="false" version="4.5.0.v20151128060001" download-size="4727" install-size="4727" />
+	<plugin fragment="true" id="org.eclipse.gef.releng.nl_es" unpack="false" version="4.5.0.v20151128060001" download-size="1536" install-size="1536" />
+</feature>

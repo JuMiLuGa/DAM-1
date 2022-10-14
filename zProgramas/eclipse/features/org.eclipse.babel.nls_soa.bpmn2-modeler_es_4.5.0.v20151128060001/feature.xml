@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<feature
+	id="org.eclipse.babel.nls_soa.bpmn2-modeler_es"
+	label="Babel Language Pack for soa.bpmn2-modeler in Spanish (17.5%)"
+	image="eclipse_update_120.jpg"
+	provider-name="%providerName"
+	version="4.5.0.v20151128060001">
+	<copyright>
+		%copyright
+	</copyright>
+	<license url="%licenseURL">
+		%license
+	</license>
+	<description>Babel Language Pack for soa.bpmn2-modeler in Spanish</description>
+	<plugin fragment="true" id="org.eclipse.bpmn2.modeler.core.nl_es" unpack="false" version="4.5.0.v20151128060001" download-size="6176" install-size="6176" />
+	<plugin fragment="true" id="org.eclipse.bpmn2.modeler.runtime.jboss.jbpm5.nl_es" unpack="false" version="4.5.0.v20151128060001" download-size="6790" install-size="6790" />
+	<plugin fragment="true" id="org.eclipse.bpmn2.modeler.ui.nl_es" unpack="false" version="4.5.0.v20151128060001" download-size="13811" install-size="13811" />
+	<plugin fragment="true" id="org.eclipse.bpmn2.modeler.wsil.nl_es" unpack="false" version="4.5.0.v20151128060001" download-size="2141" install-size="2141" />
+</feature>

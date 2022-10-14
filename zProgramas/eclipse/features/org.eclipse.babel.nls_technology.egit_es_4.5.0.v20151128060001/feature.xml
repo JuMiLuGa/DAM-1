@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<feature
+	id="org.eclipse.babel.nls_technology.egit_es"
+	label="Babel Language Pack for technology.egit in Spanish (16.9%)"
+	image="eclipse_update_120.jpg"
+	provider-name="%providerName"
+	version="4.5.0.v20151128060001">
+	<copyright>
+		%copyright
+	</copyright>
+	<license url="%licenseURL">
+		%license
+	</license>
+	<description>Babel Language Pack for technology.egit in Spanish</description>
+	<plugin fragment="true" id="org.eclipse.egit.core.nl_es" unpack="false" version="4.5.0.v20151128060001" download-size="2117" install-size="2117" />
+	<plugin fragment="true" id="org.eclipse.egit.gitflow.ui.nl_es" unpack="false" version="4.5.0.v20151128060001" download-size="2161" install-size="2161" />
+	<plugin fragment="true" id="org.eclipse.egit.ui.nl_es" unpack="false" version="4.5.0.v20151128060001" download-size="7932" install-size="7932" />
+</feature>
