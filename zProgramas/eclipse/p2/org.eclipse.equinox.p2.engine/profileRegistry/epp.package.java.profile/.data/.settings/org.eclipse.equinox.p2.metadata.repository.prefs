@@ -15,6 +15,9 @@ repositories/file\:_E\:_DAM%201_zProgramas_eclipse_configuration_org.eclipse.osg
 repositories/file\:_E\:_DAM%201_zProgramas_eclipse_configuration_org.eclipse.osgi_186_data_listener_1925729951/type=org.eclipse.equinox.internal.p2.metadata.repository.LocalMetadataRepository
 repositories/file\:_E\:_DAM%201_zProgramas_eclipse_configuration_org.eclipse.osgi_186_data_listener_1925729951/uri=file\:/E\:/DAM%201/zProgramas/eclipse/configuration/org.eclipse.osgi/186/data/listener_1925729951/
 repositories/file\:_E\:_DAM%201_zProgramas_eclipse_configuration_org.eclipse.osgi_186_data_listener_1925729951/version=1.0.0
+repositories/http\:__com.alpesh.matrixworld/enabled=true
+repositories/http\:__com.alpesh.matrixworld/isSystem=false
+repositories/http\:__com.alpesh.matrixworld/uri=http\://com.alpesh.matrixworld
 repositories/http\:__download.eclipse.org_technology_babel_update-site_R0.13.1_mars/enabled=true
 repositories/http\:__download.eclipse.org_technology_babel_update-site_R0.13.1_mars/isSystem=false
 repositories/http\:__download.eclipse.org_technology_babel_update-site_R0.13.1_mars/name=Babel Language Pack Metadata Repository
