@@ -18,6 +18,7 @@ public class Ejercicio3 {
 		//CALCULOS NECESARIOS PARA REALIZAR LA MEDIA
 		
 		System.out.println("La media entre los precios de los distintos establecimientos es de: " + ((precio1+precio2+precio3)/3));
+		Precio.close();
 	}
 
 }

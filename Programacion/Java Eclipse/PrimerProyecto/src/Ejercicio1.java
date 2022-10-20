@@ -20,6 +20,7 @@ public class Ejercicio1 {
 		//MOSTRAR ULTIMA LETRAS DE PALABRA
 		System.out.println("La ultima letra de " + nombre + " es la letra " + nombre.charAt(nombre.length()-1));
 		
+		entrada.close();
 	}
 
 }

@@ -15,6 +15,7 @@ public class Ejercicio2 {
 		
 		//CALCULOS NECESARIOS PARA CALCULAR EL AREA
 		System.out.println("El area del triangulo de "+ altura +"cm de alto y "+ base +"cm de base es de: "+ ((altura*base)/2)+ "cm");
+		triangulo.close();
 	}
 
 }
