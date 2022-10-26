@@ -1,0 +1,14 @@
+/* CSS en HOJA usando ID */
+#parrafo1 {
+    color: yellowgreen;
+    text-align: right;
+    font-style: italic;
+    font-family: 'Arial Narrow Bold';
+}
+
+/* CSS en HOJA usando CLASS */
+.parrafo2 {
+    color: brown;
+    text-align: center;
+    font-family: Impact;
+}

@@ -1,0 +1,28 @@
+1. Abrimos la terminal.
+
+2. Actualizamos los repositorios y los paquetes:
+sudo apt update &amp;&amp; sudo apt upgrade -y
+
+3. Instalamos git
+sudo apt install git
+
+4. Instalamos python
+sudo apt install python
+
+5. Instalamos python3
+sudo apt install python3
+
+6. Nos movemos al escritorio o a la carpeta donde queramos tener el programa.
+cd Desktop.
+
+7. Clonamos en esa carpeta el repositorio de github con el script.
+git clone https://github.com/Pure-L0G1C/Instagram
+
+8. Le damos permisos de ejecución.
+chmod +x Instagram
+
+9. Esto es opcional, pero para abrir el panel de ayuda del programa simplemente ponemos:
+python instagram.py -h
+
+10. Ejecutamos el script con las indicaciones
+python/2/3 instagram.py usuario_victima /Ruta_de_vuestro_diccionario.
