@@ -21,6 +21,7 @@ public class EjerciciosBucles3 {
 			}
 		}
 		double media = (suma/contador);
+		
 		System.out.println("El numero " + num + " tiene " + contador + " divisores.");
 		System.out.println("La media de los divisores es " + media + ".");
 	}
