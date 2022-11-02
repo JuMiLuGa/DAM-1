@@ -1,0 +1,28 @@
+#titheader{
+    text-align: center;
+    color: #C23C9E;
+}
+header{
+   padding: 0.15cm;
+    background-color: #64F5A3;
+    
+}
+body{
+    background-color: #F6A2B6;
+}
+#titpa{
+    color:#4C5454 ;
+}
+p{
+    color: #4C5454;
+    font-style: bold;
+    font-size: larger;
+}
+div{
+    text-align: center;
+}
+button{
+    background-color: #00C2C0;
+    border: #4C5454 ,2px;
+    color: #C23C9E;
+}
