@@ -78,6 +78,7 @@ img { border: none; }
   border-top:none;
   border-left: none;
   border-right: none;
+  background-image: ;
 }
 
 #contenido {
@@ -133,8 +134,8 @@ img { border: none; }
 #secundario {
   border-style: solid;
   border-color: #cc6600;
-  background-color: db905c;
 }
+
 #secundario h2 {
   background-color: #db905c;
 
