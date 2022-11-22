@@ -2,52 +2,73 @@ html{
 background: tan;
 }
 
-#titulo{
-    text-align: center;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 50px;
-    color: darkgoldenrod;
-    background:url(./imagenes/poiopanoramica.jpg) no-repeat center center ;
-    background-size: cover;
-    margin-top: -8px;
-    margin-left: -8px;
-    padding: 12px;
-    width: 100%;
-    position: fixed;
+/*HEADER+MENU*/
+header{
+        text-align: center;
+        position: fixed;
+        top: 0;
+        width:100%;
+        margin-left: -8px;
+        background-image: url('./Imagenes/poiopanoramica.jpg') ;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
 }
 
-.parent{
-    border: 2px black dotted;
+#titulo{
+    font-size: 45px;
+    color: goldenrod;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+#subtitulo{
+    margin-top: 6cm;
+}
+
+/*PARTE DEL MENU*/
+.menu{
     display: inline-block;
+    width: 100%;
+    
+}
+
+.menui{
+    
+    width: 24.8%;
+    display: inline-block;
+
+    font-size: 25px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: black;
+    vertical-align: middle;
+}
+#uno{
+    text-align: left;
+}
+
+/*ARTICULOS*/
+.padre{
+    margin-top: 2cm;
+    border: 2px black solid;
+    display: inline-block;
+    width: 100%;
+    height: 40cm;
+    background: rgb(196, 146, 81);
 }
 
 .box{
-    background: red;
-    /*width: 100%;
-    height: 100%;*/
+    
+    width: 33%;
     display: inline-block;
-    /*margin-top: 80px;
-    position: relative;*/
+    
 }
 
-#menu{
-    /*margin-top:-34px ;
-    margin-right: -8px;
-    margin-left: -8px;
-    padding: 25px;
-    background:whitesmoke ;
+.titular{
     text-align: center;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    font-size: 150%;
-    width: 100%;
-    position: static;*/
 }
 
-.icomenu{
-    float: left;
-}
-
-.amenu{
-    text-decoration: none;
-    color: black;
+#noticia2{
+    border-left: 3px,black,dotted;
+    border-right: 3px,black,dotted;
 }

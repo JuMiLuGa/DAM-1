@@ -71,6 +71,11 @@ img { border: none; }
   border: none;
 }
 
+#cabecera h1 {
+  color: #004d9900;
+  background-image: url('./logo.gif');
+}
+
 #menu {
   margin-bottom: .5em;
   border-style: solid;
@@ -79,6 +84,7 @@ img { border: none; }
   border-left: none;
   border-right: none;
   background-image: ;
+  background-image: url('./fondo_menu.gif');
 }
 
 #contenido {
@@ -138,5 +144,6 @@ img { border: none; }
 
 #secundario h2 {
   background-color: #db905c;
+  padding: 5px;
 
 }

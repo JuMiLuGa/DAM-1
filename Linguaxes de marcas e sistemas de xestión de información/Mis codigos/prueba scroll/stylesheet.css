@@ -1,0 +1,27 @@
+body, html{
+    margin:0;
+    padding:0;
+}
+.header{
+    border-top:1px solid white;
+    background:white; color:#333; 
+    height:150px; width:100%; 
+    font-family: 'Lobster', cursive; 
+    text-align:center
+}
+.menu{ 
+    height:80px; 
+    width:100%; 
+    background:#333; 
+    color:white; 
+    text-align:center
+}
+.wrapper{ 
+    height:2000px; 
+    width:100%; 
+    padding-top:20px
+}
+ 
+.fixed{position:fixed; 
+    top:0
+}
