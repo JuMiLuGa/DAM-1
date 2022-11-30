@@ -7,6 +7,7 @@ html{
 }
 
 /*LINKS*/
+
 /*link no visitado*/
 a:link{
     color: green;
@@ -26,6 +27,7 @@ p:target{
 }
 
 /*BOTONES*/
+
 /*estilo de boton*/
 button{
     background-color: green;
@@ -48,6 +50,7 @@ button:hover{
 }
 
 /*AREAS DE TEXTO*/
+
 /*cuando se hace click para escribir(esta enfocado)*/
 
 input:focus{
@@ -67,6 +70,7 @@ input:required{
 }
 
 
+/*TABLAS*/
 
 /*filas pares*/
 tr:nth-child(even){
@@ -74,10 +78,11 @@ background-color: papayawhip;
 color: black;
 }
 
-/**/
+/*filas impares*/
 tr:nth-child(odd){
     background-color: blue;
 }
+
 /*primera fila*/
 tr:first-child{
     background-color: grey;

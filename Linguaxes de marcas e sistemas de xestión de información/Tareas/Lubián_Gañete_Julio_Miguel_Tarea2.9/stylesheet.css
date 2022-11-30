@@ -1,0 +1,17 @@
+form{
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+input:empty{
+    background-color: red;
+}
+
+div:focus{
+    border: 1px solid green;
+}
+
+button{
+    border: 20px;
+}
