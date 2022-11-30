@@ -1,0 +1,86 @@
+html{
+background: tan;
+}
+
+/*HEADER+MENU*/
+header{
+        text-align: center;
+        position: fixed;
+        top: 0;
+        width:100%;
+        margin-left: -8px;
+        background-image: url('./Imagenes/poiopanoramica.jpg') ;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+}
+
+#titulo{
+    font-size: 45px;
+    color: goldenrod;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+#subtitulo{
+    margin-top: 6cm;
+}
+
+/*PARTE DEL MENU*/
+.menu{
+    display: inline-block;
+    width: 100%;
+    
+}
+
+.menui{
+    
+    width: 24.8%;
+    display: inline-block;
+
+    font-size: 25px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: black;
+    vertical-align: middle;
+}
+#uno{
+    text-align: left;
+}
+
+/*ARTICULOS*/
+.padre{
+    margin-top: 2cm;
+    border: 2px black solid;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    background: rgb(196, 146, 81);
+}
+
+.box{
+    
+    width: 33%;
+    ;
+    display: inline-block;
+    
+}
+
+.titular{
+    text-align: center;
+}
+
+#noticia2{
+    border-left: 3px,black,dotted;
+    border-right: 3px,black,dotted;
+}
+#fn1{
+    float: left;
+    text-align: left;
+}
+#fn3{
+    float: right;
+    text-align: right;
+}
+#boton{
+    text-align: right;
+}

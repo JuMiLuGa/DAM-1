@@ -1,0 +1,84 @@
+/*estilo base del HTML*/
+html{
+    background-color: black;
+    color: white;
+    font-family: Arial;
+    font-size: 15px;
+}
+
+/*LINKS*/
+/*link no visitado*/
+a:link{
+    color: green;
+}
+
+/*link visitado*/
+a:visited{
+    color: steelblue;
+    text-decoration-color: hotpink;
+}
+
+/*cuado se le da al link relacionado con su respectivo texto,imagen,etc*/
+p:target{
+    color:black;
+    border: 2px solid blue;
+    background-color: gold;
+}
+
+/*BOTONES*/
+/*estilo de boton*/
+button{
+    background-color: green;
+    color: wheat;
+    
+}
+
+/*mientras se estaa pulsando el boton*/
+button:active{
+    background-color: red;
+    color: greenyellow;
+    font-size: 50px;
+    width: 10rem;
+    height: 10rem;
+}
+
+/*Cuando se pasa por encima*/
+button:hover{
+    background-color: grey;
+}
+
+/*AREAS DE TEXTO*/
+/*cuando se hace click para escribir(esta enfocado)*/
+
+input:focus{
+    background-color: green;
+}
+
+/*cuando esta vacío el area de texto*/
+/*
+input:empty{
+    background-color: red;
+}
+*/
+
+/*cuando es obligatorio meter texto*/
+input:required{
+    background-color: aquamarine;
+}
+
+
+
+/*filas pares*/
+tr:nth-child(even){
+background-color: papayawhip;
+color: black;
+}
+
+/**/
+tr:nth-child(odd){
+    background-color: blue;
+}
+/*primera fila*/
+tr:first-child{
+    background-color: grey;
+}
