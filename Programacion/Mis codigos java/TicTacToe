@@ -1,0 +1,310 @@
+import java.util.*;
+
+class Move {
+int r;
+int c;
+Move(int r, int c) {
+this.r=r;
+this.c=c;
+}
+
+
+@Override public String toString() {
+return "Move [ "+(this.r+1)+" , "+(this.c+1)+" ]";
+}
+}
+
+class ChildNodes {
+Move move;
+int value;
+ChildNodes(Move move, int value) {
+this.move=move;
+this.value=value;
+}
+
+@Override public String toString() {
+return " value: "+this.value;
+}
+}
+
+class Board {
+int[][] board=new int[3][3];
+char[][] mark=new char[3][3];
+List<Move> availableMoves;
+List<ChildNodes> childNodes;
+
+List<Move> getAvailableMoves() {
+availableMoves=new ArrayList<>();
+for (int i=0; i<board.length; i++) {
+for (int j=0; j<board.length; j++) {
+if (board[i][j] == 0) {
+availableMoves.add(new Move(i, j));
+}
+}
+}
+return availableMoves;
+}
+
+void showBoard() {
+for (int i=0; i<board.length; i++) {
+
+for (int j=0; j<board.length; j++) {
+if (board[i][j] == 0) {
+mark[i][j] = '-';
+}
+
+if (board[i][j] == 1) {
+mark[i][j] = 'X';
+}
+
+if (board[i][j] == 2) {
+mark[i][j] = 'O';
+}
+System.out.print("\t["+mark[i][j]+"]\t"wink;
+}
+
+System.out.println();
+}
+
+
+}
+
+void showHint() {
+System.out.println();
+for (int i=1; i<=3; i++) {
+for (int j=1; j<=3; j++) {
+System.out.print("\t["+i+""+j+"]\t"wink;
+}
+System.out.println();
+}
+}
+
+
+
+boolean xHasWon() {
+for (int i=0; i<board.length; i++) {
+
+if ((board[i][0] == board[i][1] && board[i][1] == board[i][2] && board[i][0] == 1) || (board[0][i] == board[1][i] && board[1][i] == board[2][i] && board[2][i] == 1)) {
+return true;
+}
+
+if ( i == 0) {
+if ((board[i][i] == board[1][1] && board[1][1] == board[2][2] && board[2][2] == 1) || (board[i][2] == board[1][1] && board[1][1] == board[2][i] && board[i][2] == 1)) {
+return true;
+}
+}
+
+
+
+}
+
+return false;
+}
+
+boolean oHasWon() {
+for (int i=0; i<board.length; i++) {
+
+if ((board[i][0] == board[i][1] && board[i][1] == board[i][2] && board[i][0] == 2) || (board[0][i] == board[1][i] && board[1][i] == board[2][i] && board[2][i] == 2)) {
+return true;
+}
+
+if ( i == 0) {
+if ((board[i][i] == board[1][1] && board[1][1] == board[2][2] && board[2][2] == 2) || (board[i][2] == board[1][1] && board[1][1] == board[2][i] && board[i][2] == 2)) {
+return true;
+}
+}
+
+
+
+}
+
+return false;
+}
+
+boolean isGameOver() {
+
+return xHasWon() || oHasWon() || getAvailableMoves().isEmpty();
+}
+
+void placeMove(Move m, int player) {
+board[m.r][m.c]=player;
+}
+
+int minimax(int depth, boolean turn) {
+
+List<Move> legalStates=getAvailableMoves();
+
+if (xHasWon()) {
+return +1;
+}
+
+if (oHasWon()) {
+return -1;
+}
+
+if (legalStates.isEmpty() && !xHasWon() && !oHasWon()) {
+return 0;
+}
+
+int max=Integer.MIN_VALUE;
+int min=Integer.MAX_VALUE;
+
+if (turn) {
+for (int i=0; i<legalStates.size(); i++) {
+Move move=legalStates.get(i);
+placeMove(move, 1);
+int score=minimax(depth+1, false);
+max=Math.max(max, score);
+
+
+
+
+if (depth == 0 ) {
+childNodes.add(new ChildNodes(move, max));
+
+
+
+
+
+}
+
+placeMove(move, 0);
+
+
+
+
+
+
+
+
+
+
+
+
+}
+}
+else {
+for (int i=0; i<legalStates.size(); i++) {
+Move move=legalStates.get(i);
+placeMove(move, 2);
+int score=minimax(depth+1, true);
+min=Math.min(min, score);
+
+
+
+if (depth == 0) {
+
+childNodes.add(new ChildNodes(move, min));
+
+}
+placeMove(move, 0);
+
+
+
+}
+}
+
+return turn?max:min;
+}
+
+Move getBestMove() {
+int max=Integer.MIN_VALUE;
+int index=0;
+for (int i=0; i<childNodes.size(); i++) {
+if (max < childNodes.get(i).value) {
+max = childNodes.get(i).value;
+index = i;
+
+}
+}
+
+return childNodes.get(index).move;
+}
+
+void callMinimax(int depth, boolean turn) {
+childNodes=new ArrayList<>();
+minimax(depth, turn);
+}
+
+void newGame() {
+System.out.println("Welcome to J-Tac-Toe.\n ************************************************************ \n Author: Kingsley Victor \n Version: 1.0.0 \n ************************************************************ "wink;
+showBoard(); showHint();
+System.out.println("\n To place a mark, enter the corresponding row and column value\n \n"wink;
+Scanner gameInput=new Scanner(System.in);
+System.out.println("Who plays first? Computer (1), User(2)"wink;
+int choice=gameInput.nextInt();
+while (choice < 1 || choice > 2) {
+System.out.println("Invalid choice. Enter either 1 or 2 for computer or human to make first move respectively"wink;
+choice=gameInput.nextInt();
+
+}
+
+if (choice == 1) {
+Random rand=new Random();
+Move m=new Move(rand.nextInt(3), rand.nextInt(3));
+placeMove(m, 1);
+showBoard();
+showHint();
+}
+
+while (!isGameOver()) {
+System.out.println("Make your move. \n \n"wink;
+int r=gameInput.nextInt()-1;
+int c=gameInput.nextInt()-1;
+Move m=new Move(r, c);
+while(board[m.r][m.c] !=0) {
+System.out.println("Invalid move. Point is already occupied \n \n"wink;
+r=gameInput.nextInt()-1;
+c=gameInput.nextInt()-1;
+m=new Move(r, c);
+}
+
+
+placeMove(m, 2);
+showBoard();
+
+callMinimax(0, true);
+if (isGameOver()) {
+System.out.println();
+showBoard();
+break;
+}
+
+try {
+System.out.println();
+System.out.println("Wait! Computer is thinking!"wink;
+System.out.println();
+Thread.sleep(2000);
+}
+catch(InterruptedException e) {
+
+}
+placeMove(getBestMove(), 1);
+showBoard();
+if (!isGameOver()) {
+showHint();
+}
+
+}
+
+if (xHasWon()) {
+System.out.println("Computer wins the game"wink;
+}
+
+if (oHasWon()) {
+System.out.println("Congratulations, you win the game"wink;
+}
+
+if (getAvailableMoves().isEmpty() && !xHasWon() && !oHasWon()) {
+System.out.println("It's a tie!"wink;
+}
+}
+
+}
+
+public class TicTacToe {
+public static void main(String[] args) {
+Board b=new Board();
+b.newGame();
+}
+}

@@ -1,5 +1,3 @@
-package Proba2;
-
 import java.util.Scanner;
 
 public class Prueba2_ej_C {
