@@ -1,25 +1,40 @@
 <!DOCTYPE html>
 <html lang="es">
-	<head>
-		 <meta charset="UTF-8">
+    <head>
+         <meta charset="UTF-8">
          <title>Husqvarna Ofertas</title>
-         <link rel="stylesheet" href="stylesheet.css">
-         <link rel="shortcut icon" href="./imagenes/logoico.png" />
-	</head>
+         <link rel="stylesheet" href="StyleSheet.css">
+         <link rel="shortcut icon" href="./imagenes/logoico.png"/>
+    </head>
 
-    <header style="background-color: rgb(128, 128, 128)" id="cabecera">
-
-            <p style="text-align: center">     
-              <a href="./Pagina_principal.html"> <img align="left" src="./imagenes/logotipo.png" alt="logotipo Husqvarna" height="100" width="500"></a> 
-            </p>
-
-            <strong><pre style="font-family: Helvetica Nue; font-size: 110%;" align="center"> <h1 ><a style="text-decoration: none; color: rgb(2, 54, 96);"> OFERTAS</a>                <a style="text-decoration: none; color: rgb(2, 54, 96);" href="Productos.html"> PRODUCTOS</a>                <a style="text-decoration: none; color: rgb(2, 54, 96);" href="Pagina Cesta/Cesta.html"> <img src="./imagenes/logocesta.png" alt="Cesta" width="50" height="50"></a></h1> </pre></strong>
-        
+    <header>
+<!--Inicio de barra navegacion-->
+        <nav>
+            <img id="logotipo" src="./imagenes/logotipo.png" alt="Logotipo Husqvarna">
+            <a href="./index.html">Pagina principal</a>
+            <a href="./Productos.html">Productos</a>
+            <a id="active" href="./Ofertas.html">Ofertas</a>
+            <a href="./Pagina Cesta/Cesta.html">Cesta de compra</a>
+            <form>
+                <input id="buscar" type="search" placeholder="Buscar">
+            </form>   
+        </nav>
+<!--Fin de barra navegacion-->
     </header>
 
 	<body style="background-color: rgb(148, 148, 148); color: rgb(2, 54, 96);">
 
 		<h1 style="text-align: center; color:rgb(2, 54, 96)">Ofertas de Husqvarna Motorcycles</h1>
+
+        <div style="position: fixed; right: 0; top: 50%; transform: translateY(-50%);
+            background-color: white; border: 1px solid black; padding: 10px;">
+  <ul>
+    <li><a href="#">Enlace 1</a></li>
+    <li><a href="#">Enlace 2</a></li>
+    <li><a href="#">Enlace 3</a></li>
+  </ul>
+</div>
+
 
 	</body>
     

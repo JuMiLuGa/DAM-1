@@ -1,0 +1,62 @@
+/*Documento general*/
+html{
+    background-color: rgb(148, 148, 148);
+}
+
+/*INICIO MENU HORIZONTAL*/
+/*nav general*/
+nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 15px;
+    overflow: hidden;
+    background-image: linear-gradient(to bottom, rgb(77, 77, 77), rgb(148, 148, 148));
+    margin-top: -8px;
+    margin-left: -8px;
+    margin-right: -8px;
+    border-bottom: 50px solid linear-gradient(to right, rgb(0, 0, 0), rgb(148, 148, 148));;
+}
+/*anchors dentro nav*/
+nav a {
+    float: left;
+    display: block;
+    color: rgb(231, 255, 11);
+    margin-top: 30px;
+    padding: 14px 16px;
+    text-decoration: none;
+    margin-left: 50px;
+    margin-right: 80px;
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 2px;
+
+}
+/*anchors cuado pasas por encima*/
+nav a:hover {
+    background-color: rgb(100, 100, 100);
+}
+
+/*Pagina activa*/
+#active{
+background-color: rgb(80, 80, 80);
+color: rgb(2, 54, 96);
+}
+/*Logotipo Menu*/
+#logotipo{
+    float: left;
+    width: 475px;
+    height: 90px;
+    margin-right: 50px;
+    margin-left: 10px;
+}
+
+#buscar{
+    margin-top: 40px;
+    margin-left: 60px;
+}
+/*FIN MENU HORIZONTAL*/
+
+body{
+    background-color: rgb(148, 148, 148);
+    color: rgb(2, 54, 96);
+}
