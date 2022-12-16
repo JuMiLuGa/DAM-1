@@ -1,0 +1,24 @@
+#cookie-message {
+    background-color: rgb(243, 243, 243);
+    margin-left: -8px;
+    bottom: 0;
+    color: #fff;
+    padding: 20px;
+    position: fixed;
+    text-align: center;
+    width: 100%;
+    z-index: 999;
+    
+}
+
+#cookie-message button {
+    background-color: #333;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    padding: 10px;
+  }
+  
+#cookie-message button:hover {
+    background-color: #444;
+}
