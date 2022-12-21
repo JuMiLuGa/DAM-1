@@ -1,0 +1,75 @@
+header{
+    background-image: linear-gradient(to bottom, rgb(18, 139, 44), rgb(148, 148, 148));
+    margin-top: -8px;
+    margin-left: -8px;
+    margin-right: -8px;
+    padding-bottom: 20px;
+}
+
+body{
+    background-color: rgb(148, 148, 148);
+}
+
+.cabecera{
+    display: inline-block;
+    font-family: 'Rubik Vinyl', cursive;  
+}
+
+.logo{
+    padding-left: 10px;
+}
+
+.divc{
+    display: flex;
+}
+
+
+/**/
+nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 15px;
+    overflow: hidden;
+    background-color: rgb(148, 148, 148);
+    margin-top: -8px;
+    margin-left: -8px;
+    margin-right: -8px;
+}
+/*anchors dentro nav*/
+nav a {
+    float: left;
+    display: block;
+    color: rgb(231, 255, 11);
+    margin-top: 30px;
+    padding: 14px 16px;
+    text-decoration: none;
+    margin-left: 50px;
+    margin-right: 80px;
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 2px;
+
+}
+/*anchors cuado pasas por encima*/
+nav a:hover {
+    background-color: rgb(100, 100, 100);
+}
+
+/*Pagina activa*/
+#active{
+background-color: rgb(80, 80, 80);
+color: rgb(8, 170, 211);
+}
+/*Logotipo Menu*/
+#logotipo{
+    float: left;
+    width: 475px;
+    height: 90px;
+    margin-right: 50px;
+    margin-left: 10px;
+}
+
+#buscar{
+    margin-top: 40px;
+    margin-left: 60px;
+}
