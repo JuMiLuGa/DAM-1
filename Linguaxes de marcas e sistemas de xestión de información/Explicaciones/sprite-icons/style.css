@@ -1,0 +1,53 @@
+#sprite-icons{
+    background-color:steelblue;
+    width:200px;
+    margin: 30px auto;
+    padding: 30px;
+    text-align:center; 
+  }
+  
+  #sprite-icons ul{
+    display:block;
+    list-style: none;
+    padding:0px;
+    overflow:hidden;
+    margin: 0px auto;
+    background-color: orange;
+    max-height:36px;
+  }
+  
+  #sprite-icons ul li{
+    display:inline-block;
+  }
+  
+  #sprite-icons ul li a{
+    display:block;
+    width: 24px;
+    height: 24px;
+    background:url(https://1.bp.blogspot.com/-CLqcvZtBWCQ/U_oDeDpK-RI/AAAAAAAAA9U/PR7RwGKarOE/s1600/sprite.png;);
+      
+      float:left;
+    background-color:grey;
+    margin: 4px;
+    border: 2px solid white;
+    transition: all 0.4s ease;
+  }
+  
+  #sprite-icons ul li a.facebook{
+    background-position: 0px 0px;
+  }
+  
+  #sprite-icons ul li a.Mail{
+    background-position: -96px 0px;
+  }
+  
+  #sprite-icons ul li a.RSS{
+    background-position: -72px 0px;
+  }
+  
+  #sprite-icons ul li a:hover{
+    background-color:black;
+    border:2px solid black;
+    /*border-radius:26px;*/
+    transform:rotate(360deg);
+  }

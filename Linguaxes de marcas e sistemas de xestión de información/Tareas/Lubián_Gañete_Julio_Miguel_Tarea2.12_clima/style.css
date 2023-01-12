@@ -1,0 +1,95 @@
+table{
+  border: solid 2px black;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+th{
+  border: solid 2px black;
+}
+
+td{
+  border: solid 2px black;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+}
+
+body {
+  background-color: rgb(41, 41, 41);
+}
+
+
+#sprite-icons table a{
+  display:block;
+  width: 93px;
+  height: 81px;
+  background:url(./img/iconos_tiempo.png);
+  float:left;
+  background-color:grey;
+  margin: 4px;
+  transition: all 0.4s ease;
+}
+
+#sprite-icons table a.solnubes{
+  background-position: -214px -4px;
+}
+
+#sprite-icons table a.lluvia{
+  background-position: -107px -118px;
+}
+
+header{
+  background: linear-gradient(to bottom, rgb(14, 14, 14), rgb(41, 41, 41));
+  height: 115px;
+  margin-top: -8px;
+  margin-left: -8px;
+  margin-right: -8px;
+}
+header img{
+  height: 115px ;
+  width: 750px;
+}
+
+h2{
+  color: rgb(243, 111, 33);
+}
+hr{
+  border-color: rgb(243, 111, 33);
+  margin-left: -8px;
+  margin-right: -8px;
+}
+
+/**/
+
+#sprite-icons-social table a{
+  display:block;
+  width: 38px;
+  height: 38px;
+  background:url(./img/iconos_social.png);
+  float:left;
+  margin: 4px;
+  transition: all 0.4s ease;
+}
+
+#sprite-icons-social table a.facebook{
+  background-position: -47px -18px;
+}
+
+#sprite-icons-social table a.instagram{
+  background-position: -9px -18px;
+}
+
+#sprite-icons-social table a.twitter{
+  background-position: -85px -76px;
+}
+
+#sprite-icons-social td a:hover{
+  background-color:black;
+  border:2px solid black;
+  border-radius:26px;
+  transform:rotate(360deg);
+}
+#social{
+  border-style: none;
+}
