@@ -1,0 +1,21 @@
+.box{
+    box-sizing: border-box;
+    background: steelblue;
+    padding: 2px;
+    border: 1px solid;
+    /*width: 500px;*/
+    height: 250px;
+}
+
+.parent{
+    border: 2px solid;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 10px 20px;
+    grid-template-areas: 
+    "uno dos tres"
+    "cuatro cinco seis"
+    "siete ocho nueve";
+}
