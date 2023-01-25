@@ -1,3 +1,5 @@
+@import url('https://fonts.cdnfonts.com/css/netflix-font');
+
 header{
     background: black;
     margin-top: -8px;
@@ -9,7 +11,28 @@ header{
 }
 
 body{
-    background: black;
+    background: black;                                               
+}
+
+#menu a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Netflix Font';
+    margin-left: 60px;
+    font-size: 60px;
+}
+
+
+
+#menu a:hover{
+    color: red;
+    font-size: 70px;
+    
+}
+
+#active{
+    color: blue;
+    font-size: 125px;
 }
 
 .box{
@@ -32,7 +55,7 @@ body{
     grid-template-areas: 
     "uno dos tres"
     "cuatro cinco seis"
-    "siete ocho nueve";
+    "siete ocho ";
 }
 .box img {
     transition: transform 0.5s; 
@@ -43,6 +66,7 @@ body{
 }
 
 #titulares{
-    color: white;
+    /*color: white;*/
     margin-left: 8px;
+    font-family: 'Netflix Font';
 }
