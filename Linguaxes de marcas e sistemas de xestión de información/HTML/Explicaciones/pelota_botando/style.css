@@ -1,0 +1,50 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+
+.chan{
+    position: absolute;
+    top: 290px;
+    width: 100%;
+    border: 10px solid orangered;
+}
+
+.pcanasta{
+    position: absolute;
+    right: 0px;
+    height: 270px;
+    border: 10px solid grey;
+}
+
+.canasta{
+    position: absolute;
+    right: 20px;
+    top: 100px;
+    width: 150px;
+    border: 10px solid red;
+}
+
+
+.pelotita{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 2px solid ;
+    background-image: url(./img/pelota.png);
+    background-size: cover;
+    
+    /*CODIGO PARA ANIMACION*/
+    animation: rebota 2s linear;
+    animation-direction: normal;
+    animation-iteration-count: infinite;
+}
+
+@keyframes rebota {
+
+    0%{transform: translate3d(-350px,180px,0);}
+    25%{transform: translate3d(0,0,0);}
+    50%{transform: translate3d(350px,180px,0);}
+    75%{transform: translate3d(850px,0,0)}
+    100%{transform: translate3d(850px,180px,0)}
+}

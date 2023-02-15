@@ -1,0 +1,42 @@
+USO DE XML BASICO
+
+PROLOGO:
+
+<?xml version="1.0" encoding="UTF-8"?>
+
+ETIQUETAS:
+
+Con contenido ->  <etiqueta>········</etiqueta>
+Sin contenido ->  <etiqueta/>
+
+NORMAS:
+
+1º Distingue entre mayúsculas y minúsculas, <Libro> y <libro> son elementos distintos.
+2º Se pueden usar letras y números, pero el nombre ha de empezar siempre por una letra.
+3º Admite acentos y letras de todos los idiomas. Algunos lenguajes y lectores no los admitan, por lo que no suele ser recomendable su uso.
+4º Permite el uso de los caracteres ‘.’ ‘-‘ y ‘_’.
+5º No puede empezar por xml en ninguna combinación de minúsculas y mayúsculas.
+
+CONTENIDO:
+
+<frutas>
+    <pera>Fruta del genero Pyrus</pera>
+    <manzana>Fruta del genero Malus domestica</manzana>
+</frutas>
+
+ANIDAR:
+
+<texto>
+    <i>CORRECTO</i>
+</texto>
+
+<texto>
+    <i>INCORRECTO</texto>
+</i>
+
+ATRIBUTOS:
+
+<informe dia="2">
+    <vendido>35 Frutas</vendido>
+    <ganado moneda="euro" simbolo="€">40</ganado>
+</informe>

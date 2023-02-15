@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<catalogo>
+    <libros>
+        <libro ISBN="978-8427202122" titulo="Juegos del Hambre" autor="Suzanne Collins" genero="Accion" añoPub="2013" numPag="400" idioma="Castellano"/>
+        <libro ISBN="978-84-376-0494-7" titulo="Cien años de soledad" autor="Gabriel García Márquez" genero="Novela" añoPub="1967" numPag="417" idioma="Castellano"/>
+        <libro ISBN="978-0-449-31251-3" titulo="To Kill a Mockingbird" autor="Harper Lee" genero="Novela" añoPub="1960" numPag="324" idioma="Ingles"/>     
+        <libro ISBN="978-0-6848-0708-8" titulo="The Great Gatsby" autor="F. Scott Fitzgerald" genero="Novela" añoPub="1925" numPag="180" idioma="Ingles"/>
+        <libro ISBN="978-1-4039-9087-8" titulo="Pride and Prejudice" autor="Jane Austen" genero="Novela" añoPub="1813" numPag="279" idioma="Ingles"/>
+        <libro ISBN="978-0-385-07603-2" titulo="The Diary of a Young Girl" autor="Anne Frank" genero="Diario" añoPub="1947" numPag="267" idioma="Holandes"/>
+        <libro ISBN="978-0316769488" titulo="The Catcher in the Rye" autor="J.D. Salinger" genero="Novela" añoPub="1951" numPag="277" idioma="Ingles"/>
+        <libro ISBN="978-0-451-52904-9" titulo="1984" autor="George Orwell" genero="Novela distópica" añoPub="1949" numPag="328" idioma="Ingles"/>
+        <libro ISBN="978-0-14-118777-4" titulo="One Hundred Years of Solitude" autor="Gabriel Garcia Marquez" genero="Novela" añoPub="1967" numPag="417" idioma="Castellano"/>
+        <libro ISBN="978-0330258648" titulo="The Hitchhiker's Guide to the Galaxy" autor="Douglas Adams" genero="Ciencia ficción" añoPub="1979" numPag="216" idioma="Ingles"/>
+    </libros>
+</catalogo>
