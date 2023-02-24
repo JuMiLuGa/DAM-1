@@ -1,0 +1,5 @@
+escribiendo una cadena desde Java
+Segunda frase
+Tercera línea
+Texto procedente de un StringBuilder
+Ya incluye los saltos de línea.
