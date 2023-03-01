@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE menu [
+<!ELEMENT menu (entrantes, primeros, segundos, postres, bebidas, cafe?)>
+
+<!ELEMENT entrantes (entrante+, bebida)>
+<!ELEMENT entrante (#PCDATA)>
+<!ELEMENT bebida (#PCDATA)>
+<!ATTLIST bebida alcohol (si | no) "no">
+
+<!ELEMENT primeros (primero+, sorbete?)>
+<!ELEMENT primero (#PCDATA)>
+<!ELEMENT sorbete (#PCDATA)>
+<!ATTLIST sorbete alcohol (si | no) "no">
+
+<!ELEMENT segundos (segundo)>
+<!ELEMENT segundo (#PCDATA)>
+<!ATTLIST segundo tipo (carne | pescado | vegetal) "carne">
+
+<!ELEMENT postres (helado, tarta)>
+<!ELEMENT helado (#PCDATA)>
+<!ELEMENT tarta (#PCDATA)>
+<!ELEMENT macedonia (#PCDATA)>
+<!ATTLIST helado sabor CDATA #REQUIRED>
+
+<!ELEMENT bebidas (bebida+)>
+<!ELEMENT cafe (#PCDATA)>
+
+<!ATTLIST bebidas alcohol (si | no) "no">
+]>
+<menu>
+  <entrantes>
+    <entrante>Ensalada de gambas</entrante>
+    <entrante>Crema de calabaza</entrante>
+    <bebida alcohol="no">Agua mineral</bebida>
+  </entrantes>
+  <primeros>
+    <primero>Carpaccio de ternera</primero>
+    <primero>Tallarines con salsa de setas</primero>
+    <sorbete alcohol="si">Sorbete de limón</sorbete>
+  </primeros>
+  <segundos>
+    <segundo tipo="pescado">Lubina a la plancha</segundo>
+  </segundos>
+  <postres>
+    <helado sabor="fresa">Helado de fresa</helado>
+    <tarta>Tarta de chocolate</tarta>
+  </postres>
+  <bebidas alcohol="si">
+    <bebida alcohol="si">Vino tinto</bebida>
+    <bebida alcohol="no">Refresco de limón</bebida>
+  </bebidas>
+  <cafe>Café con leche</cafe>
+</menu>
