@@ -35,35 +35,7 @@ body{
     font-size: 125px;
 }
 
-.box{
-    box-sizing: border-box;
-    padding: 2px;
-    border: 1px solid;
-    width: 300px;
-    height: 450px;
-    margin-left: auto;
-    margin-right: auto;
-}
 
-.parent{
-    border: 2px solid;
-    box-sizing: border-box;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    gap: 10px 20px;
-    grid-template-areas: 
-    "uno dos tres"
-    "cuatro cinco seis"
-    "siete ocho ";
-}
-.box img {
-    transition: transform 0.5s; 
-}
-
-.box img:hover {
-    transform: scale(1.1); 
-}
 
 #titulares{
     color: white;
