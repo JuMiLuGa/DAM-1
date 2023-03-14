@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+targetNamespace="namespace_whatever">
+
+	<xs:element name="fichaAlumno">
+	  <xs:simpleType>
+		<xs:sequence>
+		  <xs:element name="Nombre" type="xs:string"/>
+		  <xs:element name="Apellido1" type="xs:string"/>
+		  <xs:element name="Apellido2" type="xs:string"/>
+		  <xs:element name="FechaNacimiento" type="xs:date"/>
+		  <xs:element name="Curso" type="xs:integer"/>
+		  <xs:element name="NotaMedia" type="xs:decimal"/>
+		  <xs:element name="Promociona" type="xs:boolean"/>
+		</xs:sequence>
+	  </xs:simpleType>
+	</xs:element>
+
+</xs:schema>

@@ -1,0 +1,31 @@
+.container {
+	display: flex;
+	flex-direction: row;
+}
+
+main {
+	flex: 1;
+	padding: 20px;
+}
+
+aside {
+	display: flex;
+	flex-direction: column;
+	padding: 20px;
+	background-color: #f7f7f7;
+}
+
+article {
+	margin-bottom: 20px;
+}
+
+img {
+	margin-bottom: 20px;
+}
+
+header{
+    background-color: rgba(255, 0, 0, 0.473);
+    margin-left: -8px;
+    margin-right: -8px;
+    margin-top: -8px;
+}

@@ -1,0 +1,19 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+targetNamespace="namespace_whatever">
+  <xs:element name="catalog" type="catalogType"/>
+  <xs:complexType name="catalogType">
+    <xs:sequence>
+      <xs:element name="book" type="bookType" maxOccurs="unbounded"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="bookType">
+    <xs:sequence>
+      <xs:element name="title" type="xs:string"/>
+      <xs:element name="author" type="xs:string"/>
+      <xs:element name="ISBN" type="xs:string"/>
+      <xs:element name="genre" type="xs:string"/>
+      <xs:element name="publication_date" type="xs:date"/>
+      <xs:element name="available" type="xs:boolean"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>

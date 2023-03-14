@@ -1,0 +1,8 @@
+<!ELEMENT catalog (book+)>
+<!ELEMENT book (title, author, ISBN, genre, publication_date, available)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT author (#PCDATA)>
+<!ELEMENT ISBN (#PCDATA)>
+<!ELEMENT genre (#PCDATA)>
+<!ELEMENT publication_date (#PCDATA)>
+<!ELEMENT available (#PCDATA)>

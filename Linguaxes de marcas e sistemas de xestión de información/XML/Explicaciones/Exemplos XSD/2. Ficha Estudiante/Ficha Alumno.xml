@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+
+<fichaAlumno
+xmlns="namespace_whatever"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="schema.xsd">
+<nombre>Dolores</nombre>
+<apellido1>Fuertes</apellido1>
+<apellido2>DeBarriga</apellido2>
+<fechaNacimiento>22/02/2000</fechaNacimiento>
+<curso>2</curso>
+<notaMedia>9.21</notaMedia>
+<promociona>true</promociona>
+
+
+</fichaAlumno>
