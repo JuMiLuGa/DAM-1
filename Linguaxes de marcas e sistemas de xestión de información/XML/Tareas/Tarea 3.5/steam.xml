@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+             <usuarios>
+              <usuario>
+                <nombre>Usuario1</nombre>
+                <correo>usuario1@example.com</correo>
+                <contraseña>password1</contraseña>
+                <edad>25</edad>
+                <biblioteca>
+                  <juego id="1">
+                    <nombre>Minecraft</nombre>
+                    <desarrollador>Mojang Studios</desarrollador>
+                    <fechaLanzamiento>2011-11-18</fechaLanzamiento>
+                    <plataforma>PC</plataforma>
+                    <calificación>4.6</calificación>
+                  </juego>
+                  <juego id="2">
+                    <nombre>Animal Crossing: New Horizons</nombre>
+                    <desarrollador>Nintendo</desarrollador>
+                    <fechaLanzamiento>2020-03-20</fechaLanzamiento>
+                    <plataforma>Consola</plataforma>
+                    <calificación>4.7</calificación>
+                  </juego>
+                </biblioteca>
+              </usuario>
+              <usuario>
+                <nombre>Usuario2</nombre>
+                <correo>usuario2@example.com</correo>
+                <contraseña>password2</contraseña>
+                <edad>30</edad>
+                <biblioteca>
+                  <juego id="3">
+                    <nombre>Among Us</nombre>
+                    <desarrollador>Innersloth</desarrollador>
+                    <fechaLanzamiento>2018-06-15</fechaLanzamiento>
+                    <plataforma>Móvil</plataforma>
+                    <calificación>4.4</calificación>
+                  </juego>
+                  <juego id="4">
+                    <nombre>Overwatch</nombre>
+                    <desarrollador>Blizzard Entertainment</desarrollador>
+                    <fechaLanzamiento>2016-05-24</fechaLanzamiento>
+                    <plataforma>PC</plataforma>
+                    <calificación>4.3</calificación>
+                  </juego>
+                </biblioteca>
+              </usuario>
+              <usuario>
+                <nombre>Usuario3</nombre>
+                <correo>usuario3@example.com</correo>
+                <contraseña>password3</contraseña>
+                <edad>18</edad>
+                <biblioteca>
+                  <juego id="5">
+                    <nombre>Call of Duty: Warzone</nombre>
+                    <desarrollador>Infinity Ward</desarrollador>
+                    <fechaLanzamiento>2020-03-10</fechaLanzamiento>
+                    <plataforma>PC</plataforma>
+                    <calificación>4.2</calificación>
+                  </juego>
+                  <juego id="6">
+                    <nombre>The Elder Scrolls V: Skyrim</nombre>
+                    <desarrollador>Bethesda Game Studios</desarrollador>
+                    <fechaLanzamiento>2011-11-11</fechaLanzamiento>
+                    <plataforma>PC</plataforma>
+                    <calificación>4.7</calificación>
+                  </juego>
+                </biblioteca>
+              </usuario>
+              <usuario>
+                <nombre>Usuario4</nombre>
+                <correo>usuario4@example.com</correo>
+                <contraseña>password4</contraseña>
+                <edad>22</edad>
+                <biblioteca>
+                  <juego id="7">
+                    <nombre>Fortnite</nombre>
+                    <desarrollador>Epic Games</desarrollador>
+                    <fechaLanzamiento>2017-07-25</fechaLanzamiento>
+                    <plataforma>Consola</plataforma>
+                    <calificación>4.3</calificación>
+                  </juego>
+                  <juego id="8">
+                    <nombre>Stardew Valley</nombre>
+                    <desarrollador>ConcernedApe</desarrollador>
+                    <fechaLanzamiento>2016-02-26</fechaLanzamiento>
+                    <plataforma>PC</plataforma>
+                    <calificación>4.8</calificación>
+                  </juego>
+                </biblioteca>
+              </usuario>
+              <usuario>
+                <nombre>Usuario5</nombre>
+                <correo>usuario5@example.com</correo>
+                <contraseña>password5</contraseña>
+                <edad>22</edad>
+                <biblioteca>
+                  <juego id="9">
+                    <nombre>Fall Guys: Ultimate Knockout</nombre>
+                    <desarrollador>Mediatonic</desarrollador>
+                    <fechaLanzamiento>2020-08-04</fechaLanzamiento>
+                    <plataforma>Consola</plataforma>
+                    <calificación>4.1</calificación>
+                  </juego>
+                  <juego id="10">
+                    <nombre>Counter-Strike: Global Offensive</nombre>
+                    <desarrollador>Valve Corporation</desarrollador>
+                    <fechaLanzamiento>2012-08-21</fechaLanzamiento>
+                    <plataforma>PC</plataforma>
+                    <calificación>4.4</calificación>
+                  </juego>
+                </biblioteca>
+                </usuario>
+              <usuario>
+                <nombre>Usuario6</nombre>
+                <correo>usuario6@example.com</correo>
+                <contraseña>password6</contraseña>
+                <edad>29</edad>
+                <biblioteca>
+                  <juego id="11">
+                    <nombre>Assassin's Creed Valhalla</nombre>
+                    <desarrollador>Ubisoft Montreal</desarrollador>
+                    <fechaLanzamiento>2020-11-10</fechaLanzamiento>
+                    <plataforma>Consola</plataforma>
+                    <calificación>4.6</calificación>
+                  </juego>
+                  <juego id="12">
+                    <nombre>Grand Theft Auto V</nombre>
+                    <desarrollador>Rockstar North</desarrollador>
+                    <fechaLanzamiento>2013-09-17</fechaLanzamiento>
+                    <plataforma>PC</plataforma>
+                    <calificación>4.8</calificación>
+                  </juego>
+                </biblioteca>
+              </usuario>
+                <usuario>
+                  <nombre>Usuario7</nombre>
+                  <correo>usuario7@example.com</correo>
+                  <contraseña>password7</contraseña>
+                  <edad>21</edad>
+                  <biblioteca>
+                    <juego id="13">
+                      <nombre>Assassin's Creed Odyssey</nombre>
+                      <desarrollador>Ubisoft Quebec</desarrollador>
+                      <fechaLanzamiento>2018-10-05</fechaLanzamiento>
+                      <plataforma>PC</plataforma>
+                      <calificación>4.6</calificación>
+                    </juego>
+                    <juego id="14">
+                      <nombre>FIFA 22</nombre>
+                      <desarrollador>EA Sports</desarrollador>
+                      <fechaLanzamiento>2021-10-01</fechaLanzamiento>
+                      <plataforma>Consola</plataforma>
+                      <calificación>4.5</calificación>
+                    </juego>
+                  </biblioteca>
+                </usuario>
+                <usuario>
+                  <nombre>Usuario8</nombre>
+                  <correo>usuario8@example.com</correo>
+                  <contraseña>password8</contraseña>
+                  <edad>24</edad>
+                  <biblioteca>
+                    <juego id="15">
+                      <nombre>Dark Souls III</nombre>
+                      <desarrollador>FromSoftware</desarrollador>
+                      <fechaLanzamiento>2016-04-12</fechaLanzamiento>
+                      <plataforma>PC</plataforma>
+                      <calificación>4.5</calificación>
+                    </juego>
+                    <juego id="16">
+                      <nombre>League of Legends</nombre>
+                      <desarrollador>Riot Games</desarrollador>
+                      <fechaLanzamiento>2009-10-27</fechaLanzamiento>
+                      <plataforma>PC</plataforma>
+                      <calificación>4.7</calificación>
+                    </juego>
+                  </biblioteca>
+                </usuario>
+                <usuario>
+                  <nombre>Usuario9</nombre>
+                  <correo>usuario9@example.com</correo>
+                  <contraseña>password9</contraseña>
+                  <edad>32</edad>
+                  <biblioteca>
+                    <juego id="17">
+                      <nombre>The Legend of Zelda: Breath of the Wild</nombre>
+                      <desarrollador>Nintendo</desarrollador>
+                      <fechaLanzamiento>2017-03-03</fechaLanzamiento>
+                      <plataforma>Consola</plataforma>
+                      <calificación>4.9</calificación>
+                    </juego>
+                    <juego id="18">
+                      <nombre>Overwatch</nombre>
+                      <desarrollador>Blizzard Entertainment</desarrollador>
+                      <fechaLanzamiento>2016-05-24</fechaLanzamiento>
+                      <plataforma>PC</plataforma>
+                      <calificación>4.6</calificación>
+                    </juego>
+                  </biblioteca>
+                </usuario>
+                
+                <usuario>
+                  <nombre>Usuario10</nombre>
+                  <correo>usuario10@example.com</correo>
+                  <contraseña>password10</contraseña>
+                  <edad>27</edad>
+                  <biblioteca>
+                    <juego id="19">
+                      <nombre>Red Dead Redemption 2</nombre>
+                      <desarrollador>Rockstar Games</desarrollador>
+                      <fechaLanzamiento>2018-10-26</fechaLanzamiento>
+                      <plataforma>Consola</plataforma>
+                      <calificación>4.8</calificación>
+                    </juego>
+                    <juego id="20">
+                      <nombre>Horizon Zero Dawn</nombre>
+                      <desarrollador>Guerrilla Games</desarrollador>
+                      <fechaLanzamiento>2017-02-28</fechaLanzamiento>
+                      <plataforma>Consola</plataforma>
+                      <calificación>4.7</calificación>
+                    </juego>
+                  </biblioteca>
+                </usuario>
+                
+              </usuarios>

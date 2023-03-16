@@ -1,0 +1,16 @@
+<!DOCTYPE usuarios [
+<!ELEMENT usuarios (usuario+)>
+<!ELEMENT usuario (nombre, correo, contraseña, edad, biblioteca)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT correo (#PCDATA)>
+<!ELEMENT contraseña (#PCDATA)>
+<!ELEMENT edad (#PCDATA)>
+<!ELEMENT biblioteca (juego+)>
+<!ELEMENT juego (nombre, desarrollador, fechaLanzamiento, plataforma, calificación)>
+<!ATTLIST juego id CDATA #REQUIRED>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT desarrollador (#PCDATA)>
+<!ELEMENT fechaLanzamiento (#PCDATA)>
+<!ELEMENT plataforma (#PCDATA)>
+<!ELEMENT calificación (#PCDATA)>
+]>

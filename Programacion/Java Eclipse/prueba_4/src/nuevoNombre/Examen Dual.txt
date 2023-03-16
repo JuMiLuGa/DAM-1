@@ -1,0 +1,119 @@
+Crea todas las clases que necesites dentro de un paquete llamado prueba4_dam_dual
+
+A) Modifica el siguiente código para que el programa capture las excepciones que se pudieran producir, mostrando los mensajes correspondientes a cada error.
+
+Si la entrada de un valor por parte del usuario produce una excepción, dicha entrada no se tendrá en cuenta y se volverán a pedir los datos otra vez.
+
+  public static void main(String[] args) {
+
+    final int CANTIDAD = 5;
+
+    int[] enteros = new int[CANTIDAD];
+
+    int indice = 0;
+
+    int divisor = 0;
+
+    int contador = 0;
+
+    Scanner entrada = new Scanner(System.in);
+
+    while (contador < CANTIDAD) {
+
+      System.out.print("Introduzca un índice del array: ");
+
+      indice = Integer.parseInt(entrada.nextLine());
+
+      System.out.print("Introduzca un divisor: ");
+
+      divisor = Integer.parseInt(entrada.nextLine());
+
+      enteros[indice] = 5 / divisor;
+
+      contador++;
+
+   }
+
+   System.out.print("enteros: ");
+
+   for (int entero : enteros)
+
+      System.out.print(entero + " ");
+
+      }
+
+B) Explica qué es lo que hace el siguiente método recursivo.
+
+¿Cuántos casos base tiene este método recursivo? Descríbelos con tus palabras.
+
+    public static boolean metodoRecursivo(String s) {
+
+      if (s.length() <= 1)
+
+         return true;
+
+      else if (s.charAt(0) != s.charAt(s.length() - 1))
+
+         return false;
+
+      else
+
+         return metodoRecursivo(s.substring(1, s.length() - 1));
+
+    }
+
+C) Crea un método que reciba como argumento la ruta de un fichero. El método debe añadir texto a otro fichero llamado estadisticas.txt (si no existe debe crearlo) ubicado en el mismo directorio que el archivo cuya ruta se recibe por parámetro. El contenido que debe añadir a estadisticas.txt es una línea de texto indicando la ruta del fichero recibido por parámetro así como el número de palabras y de líneas que contiene dicho fichero, siguiendo el formato del siguiente ejemplo:
+
+si se llama al método con la ruta del archivo poo.txt y luego se vuelve a invocar el mismo método pero con la ruta del archivo java.txt, el contenido del fichero estadisticas.txt será:
+
+C:\JAVA\prueba4\poo.txt: 157 palabras en 5 líneas.
+
+C:\JAVA\prueba4\java.txt: 153 palabras en 6 líneas.
+
+D) Crea una clase llamada CargadorMovil que tenga los siguientes atributos: marca, año, potencia y permiteCargaRapida.
+
+Sobrescribe el método toString() para que muestre el valor de los atributos con un formato como el de los dos ejemplos siguientes:
+
+        Xiaomi (2021) 18.7W, sí permite carga rápida.
+
+         Samsung (2017) 8.2W, no permite carga rápida.
+
+-En otra clase, crea un método llamado deserializar() que reciba por parámetro la ruta de un fichero y que devuelva un objeto de tipo CargadorMovil. Ten en cuenta que para serializarlo se ha utilizado el valor 353 como identificador de versión de la clase CargadorMovil.
+
+-Descarga el fichero cargadorMovilSerializado.ser, deserialízalo usando tu método anterior y muestra sus datos ejecutando el siguiente código (dentro del main() de esta última clase):
+
+    CargadorMovil cm = deserializar("ruta al fichero cargadorMovilSerializado.ser");//sustituye la ruta por la tuya
+
+     System.out.println(cm);
+
+E) Crea una clase Carpeta que cumpla lo siguiente:
+
+Un único atributo carpeta de tipo File.
+
+Un único constructor que asigna al atributo un nuevo objeto de tipo File creado con la ruta que recibe por parámetro, teniendo en cuenta que:
+
+Si existe dicha ruta pero no se corresponde con un directorio, entonces lo indica con un mensaje por la salida de error.
+
+Si no existe dicha ruta, intenta crear un directorio a partir de la misma; si lo consigue, entonces muestra un mensaje por la salida estándar, sino lo indica con un mensaje por la salida de error.
+
+Método numHijos() que devuelve el número de elementos que contiene la carpeta.
+
+Método estaVacio() que devuelve un booleano indicando si la carpeta está vacía o no.
+
+Método listar() que muestra por pantalla los nombres de los elementos que contiene la carpeta. Para los elementos de tipo directorio muestra el número de hijos que tiene al final del nombre y entre paréntesis.
+
+Método espacio() devuelve la cantidad de bytes que ocupan los ficheros de la carpeta.
+
+Método mostrarPropiedades() que muestra los siguientes datos, uno por línea:
+
+ruta absoluta de la carpeta: Ruta absoluta: C:\Java\prueba4\carpetilla
+
+número de elementos que contiene: Contiene 7 elementos
+
+cantidad de bytes que ocupan sus ficheros: Espacio ocupado: 2959 bytes
+
+Método cambiarNombre() renombrará la carpeta con el nombre que recibe por parámetro.
+
+Si ya existe un elemento con dicho nombre, muestra un error indicándolo.
+
+Si es capaz de renombrarla, lo indica con un mensaje y sino lo indica con un error.
