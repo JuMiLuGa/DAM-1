@@ -1,0 +1,87 @@
+familia:
+  - persona:
+      nombre: Ana
+      apellido: Pérez
+      edad: 70
+      padres:
+        - nombre: Juan
+          apellido: García
+        - nombre: María
+          apellido: López
+      hijos:
+        - nombre: Luis
+          apellido: Pérez
+        - nombre: Carmen
+          apellido: Pérez
+  - persona:
+      nombre: Luis
+      apellido: Pérez
+      edad: 50
+      padres:
+        - nombre: Juan
+          apellido: García
+        - nombre: María
+          apellido: López
+      cónyuge:
+        - nombre: Isabel
+          apellido: Martínez
+      hijos:
+        - nombre: Antonio
+          apellido: Pérez
+        - nombre: Marta
+          apellido: Pérez
+  - persona:
+      nombre: Isabel
+      apellido: Martínez
+      edad: 48
+      padres:
+        - nombre: Pablo
+          apellido: Martínez
+        - nombre: Rosa
+          apellido: García
+      cónyuge:
+        - nombre: Luis
+          apellido: Pérez
+      hijos:
+        - nombre: Antonio
+          apellido: Pérez
+        - nombre: Marta
+          apellido: Pérez
+  - persona:
+      nombre: Antonio
+      apellido: Pérez
+      edad: 25
+      padres:
+        - nombre: Luis
+          apellido: Pérez
+        - nombre: Isabel
+          apellido: Martínez
+      abuelos paternos:
+        - nombre: Juan
+          apellido: García
+        - nombre: María
+          apellido: López
+      abuelos maternos:
+        - nombre: Pablo
+          apellido: Martínez
+        - nombre: Rosa
+          apellido: García
+  - persona:
+      nombre: Marta
+      apellido: Pérez
+      edad: 20
+      padres:
+        - nombre: Luis
+          apellido: Pérez
+        - nombre: Isabel
+          apellido: Martínez
+      abuelos paternos:
+        - nombre: Juan
+          apellido: García
+        - nombre: María
+          apellido: López
+      abuelos maternos:
+        - nombre: Pablo
+          apellido: Martínez
+        - nombre: Rosa
+          apellido: García

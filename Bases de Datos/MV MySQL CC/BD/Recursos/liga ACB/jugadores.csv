@@ -1,0 +1,15 @@
+idJugador,nombre,apellido,puesto,idCapitan,fechaAlta,salario,idEquipo,altura
+1,Juan Carlos,Navarro,Escolta,1,2010-01-10,130000.00,1,\N
+2,Felipe,Reyes,Pivot,2,2009-02-20,120000.00,2,2.04
+3,Victor,Claver,Alero,3,2009-03-08,90000.00,3,2.08
+4,Rafa,Martinez,Escolta,3,2010-11-11,51000.00,3,1.91
+5,Sergio,Llull,Escolta,2,2011-10-29,100000.00,2,1.90
+6,Victor,Sada,Base,1,2012-01-01,80000.00,1,1.92
+7,Carlos,Suarez,Alero,2,2011-02-19,60000.00,2,2.03
+"8,Fernando,""San Emeterio"",Alero,8,2008-09-22,60000.00,4,1.99"
+9,Mirza,Teletovic,Pivot,8,2010-05-13,70000.00,4,2.06
+10,Xavi,Rey,Pivot,10,2008-10-12,95000.00,5,2.09
+11,Carlos,Cabezas,Base,10,2012-01-21,105000.00,5,1.86
+12,Pablo,Aguilar,Alero,12,2011-06-14,47000.00,6,2.03
+13,Rafa,Hettsheimeir,Pivot,12,2008-04-15,53000.00,6,2.08
+14,Sitapha,Savane,Pivot,10,2011-07-27,60000.00,5,2.01

@@ -1,0 +1,34 @@
+header {
+	background-color: rgb(48, 48, 48);
+}
+body{
+    background-image: url(./Shelby_Cobra.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav li {
+	display: inline-block;
+}
+
+nav a {
+	display: block;
+	color: white;
+	text-decoration: none;
+	padding: 10px;
+}
+
+nav a:hover {
+	background-color: grey;
+}
+
+main {
+	padding: 20px;
+	text-align: center;
+}
