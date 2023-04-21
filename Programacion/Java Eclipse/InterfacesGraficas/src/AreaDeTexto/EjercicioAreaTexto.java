@@ -1,4 +1,4 @@
-package AreaTexto;
+package AreaDeTexto;
 
 import java.awt.BorderLayout;
 import java.awt.GridLayout;
@@ -10,8 +10,9 @@ import javax.swing.JFrame;
 import javax.swing.JPanel;
 import javax.swing.JScrollPane;
 import javax.swing.JTextArea;
+import javax.swing.JToggleButton;
 
-public class AreaDeTexto {
+public class EjercicioAreaTexto {
 
     public static void main(String[] args) {
         // TODO Auto-generated method stub
@@ -25,7 +26,7 @@ class VentanaAreaTextoEj1 extends JFrame{
 
 	public VentanaAreaTextoEj1() {
         setTitle("Area de texto");
-        setBounds(100,10,500,520);
+        setBounds(100,10,380,220);
         setDefaultCloseOperation(EXIT_ON_CLOSE);
         
         add(new PanelAreaTextoEj1());
@@ -42,7 +43,8 @@ class PanelAreaTextoEj1 extends JPanel{
 	
 	JTextArea txaTexto = new JTextArea(8,15);
     JButton btnBorrar = new JButton("Borrar");
-    JButton btnAjsLinea = new JButton("Ajuste linea");
+    JToggleButton btnAjsLinea = new JToggleButton("Ajuste linea");
+    JToggleButton btnEnteras = new JToggleButton("Palabras Enteras");
     JButton btnGenText = new JButton("Generar Texto");
     
     public PanelAreaTextoEj1() {
@@ -54,25 +56,35 @@ class PanelAreaTextoEj1 extends JPanel{
         add(scpTexto, BorderLayout.CENTER);
         
         
+//        add(btnBorrar, BorderLayout.NORTH);
+//        btnBorrar.addActionListener(new ActionListener() {
+//            
+//            @Override
+//            public void actionPerformed(ActionEvent e) {
+//                // TODO Auto-generated method stub
+//                txaTexto.setText("");
+//            }
+//        });
         
-        add(btnBorrar, BorderLayout.SOUTH);
-        btnBorrar.addActionListener(new ActionListener() {
-            
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                // TODO Auto-generated method stub
-                txaTexto.setText("");
-            }
-        });
         
-        
-        add(btnAjsLinea, BorderLayout.SOUTH);
+        add(btnAjsLinea, BorderLayout.NORTH);
         btnAjsLinea.addActionListener(new ActionListener() {
             
             @Override
             public void actionPerformed(ActionEvent e) {
                 // TODO Auto-generated method stub
-                txaTexto.setLineWrap(true);
+
+            	txaTexto.setLineWrap(!txaTexto.getLineWrap());
+            }
+        });
+        
+        add(btnEnteras, BorderLayout.NORTH);
+        btnEnteras.addActionListener(new ActionListener() {
+            
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                // TODO Auto-generated method stub
+               txaTexto.setWrapStyleWord(!txaTexto.getWrapStyleWord());
             }
         });
         
@@ -83,21 +95,16 @@ class PanelAreaTextoEj1 extends JPanel{
             @Override
             public void actionPerformed(ActionEvent e) {
                 // TODO Auto-generated method stub
-                txaTexto.setText(txaTexto.getText()+" En Abril Aguas mil");
+                txaTexto.append("En Abril Aguas Mil ");
             }
         });
         
-     // Crear panel adicional para botones
-        JPanel panelBotones = new JPanel(new GridLayout(1, 3));
-
-        // Agregar botones al panel adicional
-        panelBotones.add(btnBorrar);
-        panelBotones.add(btnAjsLinea);
-        panelBotones.add(btnGenText);
-
-        // Agregar panel adicional a la parte inferior del panel principal
-        add(panelBotones, BorderLayout.SOUTH);
+        JPanel pnlBotones = new JPanel(new GridLayout(1,3));
+        pnlBotones.add(btnAjsLinea);
+        pnlBotones.add(btnGenText);
+//        pnlBotones.add(btnBorrar);
+        pnlBotones.add(btnEnteras);
+        
+        add(pnlBotones, BorderLayout.SOUTH);
     }
-
-    }
-    
+}
