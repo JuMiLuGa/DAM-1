@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+	<channel>
+		<title>Mi Blog</title>
+		<link>https://miRSS.github.io</link>
+		<description>Artículos interesantes sobre diversos temas.</description>
+		<language>es-es</language>
+	</channel>
+</rss>
