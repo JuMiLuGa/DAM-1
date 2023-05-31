@@ -1,0 +1,32 @@
+-- --------------------------------------------------------------------------------
+-- Routine DDL
+-- Note: comments before and after the routine body will not be stored by the server
+-- --------------------------------------------------------------------------------
+DELIMITER $$
+
+CREATE  PROCEDURE `variables1`()
+BEGIN
+	DECLARE V_ENTERO1,V_ENTERO2,V_ENTERO3 INT;
+	DECLARE V_ENTERO4 INT DEFAULT -40000;
+	DECLARE V_ENTERO5 INT DEFAULT 400000000;
+
+	DECLARE V_REAL1 FLOAT DEFAULT 344.67;
+	DECLARE V_REAL2 FLOAT DEFAULT 1.5E14;
+	DECLARE V_REAL3 NUMERIC(7,2) DEFAULT 4561.44;
+
+	DECLARE V_CARACTER1 CHAR(1) DEFAULT 'Y';
+	DECLARE V_CARACTER2 VARCHAR(20);
+
+	DECLARE V_FECHA1 DATE DEFAULT '1966-11-03';
+	DECLARE V_FECHA2 DATE DEFAULT CURRENT_DATE;
+
+SELECT V_ENTERO1;
+SELECT V_REAL3;
+SELECT V_FECHA2;
+
+
+
+
+
+
+END

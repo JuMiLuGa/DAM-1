@@ -1,0 +1,23 @@
+-- --------------------------------------------------------------------------------
+-- Routine DDL
+-- Note: comments before and after the routine body will not be stored by the server
+-- --------------------------------------------------------------------------------
+DELIMITER $$
+
+CREATE DEFINER=`root`@`localhost` PROCEDURE `bucle3`()
+BEGIN
+
+-- Uso de REPEAT...UNTIL
+	DECLARE i TINYINT UNSIGNED;
+	SET i = 0;
+	mibucle:REPEAT
+		SET i = i + 1;
+		/*IF i = 3 THEN
+			ITERATE mibucle;
+		END IF;*/
+		SELECT CONCAT('Valor de i = ',i ) as i;
+	UNTIL i = 4	
+	END REPEAT mibucle;
+
+
+END

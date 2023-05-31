@@ -1,0 +1,15 @@
+-- --------------------------------------------------------------------------------
+-- Routine DDL
+-- Note: comments before and after the routine body will not be stored by the server
+-- --------------------------------------------------------------------------------
+DELIMITER $$
+
+CREATE DEFINER=`root`@`localhost` PROCEDURE `variables3`()
+BEGIN
+
+	SET @V1 = 20;
+	SET @V1 = @V1 * 2;
+
+	SELECT @V1;
+
+END

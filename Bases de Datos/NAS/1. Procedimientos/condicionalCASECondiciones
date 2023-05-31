@@ -1,0 +1,20 @@
+-- --------------------------------------------------------------------------------
+-- Routine DDL
+-- Note: comments before and after the routine body will not be stored by the server
+-- --------------------------------------------------------------------------------
+DELIMITER $$
+
+CREATE PROCEDURE `condicionalCASECondiciones` ()
+BEGIN
+
+DECLARE v_edad TINYINT UNSIGNED DEFAULT 7;
+CASE
+	WHEN v_edad <=12 THEN
+		SELECT 'NIÑ@';
+	WHEN v_edad <=30 THEN
+		SELECT 'JOVEN';
+	ELSE -- Equivale a DEFAULT (en otros lenguaje)
+		SELECT 'ADULTO';
+	END CASE;
+
+END

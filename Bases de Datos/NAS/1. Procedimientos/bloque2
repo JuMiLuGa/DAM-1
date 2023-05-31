@@ -1,0 +1,18 @@
+-- --------------------------------------------------------------------------------
+-- Routine DDL
+-- Note: comments before and after the routine body will not be stored by the server
+-- --------------------------------------------------------------------------------
+DELIMITER $$
+
+CREATE DEFINER=`root`@`localhost` PROCEDURE `bloque2`()
+BEGIN
+
+	DECLARE v VARCHAR(65) DEFAULT 'Variable visible en todo el procedimiento ';
+	BEGIN
+			
+			SET v = 'Cambio del valor de la variable "v" en el bloque interno ';
+			
+	END;
+	SELECT v; -- 'Cambió del valor de la variable en el bloque interno '
+
+END

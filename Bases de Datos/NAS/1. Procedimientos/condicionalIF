@@ -1,0 +1,19 @@
+-- --------------------------------------------------------------------------------
+-- Routine DDL
+-- Note: comments before and after the routine body will not be stored by the server
+-- --------------------------------------------------------------------------------
+DELIMITER $$
+
+CREATE PROCEDURE `condicionalIF` ()
+BEGIN
+
+	DECLARE v_edad TINYINT UNSIGNED DEFAULT 47;
+	IF v_edad <=12 THEN
+		SELECT 'NIÑ@';
+	ELSEIF v_edad <=30 THEN
+		SELECT 'JOVEN';
+	ELSE
+		SELECT 'ADULTO';
+	END IF;
+
+END

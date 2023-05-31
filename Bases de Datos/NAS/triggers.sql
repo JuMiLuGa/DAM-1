@@ -1,0 +1,63 @@
+
+CREATE TABLE ALUMNOS_REPLICA(
+    ID INT PRIMARY KEY,
+    nombre VARCHAR(30)
+);
+
+-- COPIAS O REPLICAS
+-- Ejemplo TRIGGER1 
+DROP TRIGGER IF EXISTS TRIGGER1;
+
+DELIMITER $$
+CREATE TRIGGER TRIGGER1
+after INSERT ON ALUMNOS
+FOR EACH ROW
+BEGIN
+	INSERT INTO ALUMNOS_REPLICA VALUES (NEW.ID, NEW.nombre);
+
+END;$$
+
+SHOW TRIGGERS FROM TEST;
+
+-- Probamos con INSERT
+
+INSERT INTO ALUMNOS VALUES (30, 'Alberto Carrera');
+
+-- Probamos con REPLACE
+REPLACE INTO alumnos values (5, 'alumno50');
+
+-- Comprobamos
+SELECT * FROM ALUMNOS;
+SELECT * FROM ALUMNOS_REPLICA;
+
+-- AUDITORIA
+-- Ejemplo TRIGGER2
+
+CREATE TABLE AUDITA (MENSAJE VARCHAR(200));
+
+DROP TRIGGER IF EXISTS TRIGGER2;
+
+DELIMITER $$
+CREATE TRIGGER TRIGGER2
+AFTER UPDATE ON ALUMNOS
+FOR EACH ROW
+BEGIN
+    INSERT INTO AUDITA VALUES 
+     (CONCAT ('Modificacion realizada por: ' , USER(), ' el dia ', NOW(),
+             ' Valores antiguos: ', OLD.ID, ' y ', OLD.nombre,
+             ' Valores nuevos: ', NEW.ID, ' y ',NEW.nombre
+            ));
+END;$$
+
+SHOW TRIGGERS FROM TEST;
+
+-- Probamos
+
+UPDATE ALUMNOS  SET 
+nombre = 'Mario Carrera'
+WHERE ID = 20;
+
+-- Comprobamos
+
+SELECT * FROM AUDITA;
+

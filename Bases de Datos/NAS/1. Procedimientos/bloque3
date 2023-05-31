@@ -1,0 +1,19 @@
+-- --------------------------------------------------------------------------------
+-- Routine DDL
+-- Note: comments before and after the routine body will not be stored by the server
+-- --------------------------------------------------------------------------------
+DELIMITER $$
+
+CREATE DEFINER=`root`@`localhost` PROCEDURE `bloque3`()
+BEGIN
+
+	DECLARE v INT DEFAULT 500;
+	BEGIN
+		DECLARE v INT;
+		SET v = 200;
+		SELECT v as 'Valor de "v" en el Bloque Interno'; -- 200
+			
+	END;
+	SELECT v as 'Valor de "v" en el Bloque Externo'; -- 500
+
+END

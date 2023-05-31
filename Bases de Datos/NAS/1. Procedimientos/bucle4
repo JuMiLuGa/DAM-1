@@ -1,0 +1,19 @@
+-- --------------------------------------------------------------------------------
+-- Routine DDL
+-- Note: comments before and after the routine body will not be stored by the server
+-- --------------------------------------------------------------------------------
+DELIMITER $$
+
+CREATE PROCEDURE `bucle4` ()
+BEGIN
+
+-- Uso de WHILE...DO
+	DECLARE i TINYINT UNSIGNED;
+	SET i = 0;
+	mibucle: WHILE i < 4 DO
+		SET i = i + 1;
+		SELECT CONCAT('Valor de i = ',i ) as i;
+		
+	END WHILE mibucle;
+
+END

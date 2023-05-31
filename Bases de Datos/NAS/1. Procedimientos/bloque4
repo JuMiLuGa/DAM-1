@@ -1,0 +1,21 @@
+-- --------------------------------------------------------------------------------
+-- Routine DDL
+-- Note: comments before and after the routine body will not be stored by the server
+-- --------------------------------------------------------------------------------
+DELIMITER $$
+
+CREATE DEFINER=`root`@`localhost` PROCEDURE `bloque4`()
+BEGIN
+	bloque_externo: BEGIN
+		DECLARE v INT DEFAULT 100;
+		bloque_interno: BEGIN
+			IF V < 500 THEN
+				 LEAVE bloque_interno;
+			END IF;
+			SELECT 'No llega a ejecutarse esta instrucción';
+		END; -- Fin bloque interno
+	SELECT 'Fin del bloque externo';
+			
+	END; -- Fin bloque externo;
+	
+END

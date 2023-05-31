@@ -1,0 +1,19 @@
+-- --------------------------------------------------------------------------------
+-- Routine DDL
+-- Note: comments before and after the routine body will not be stored by the server
+-- --------------------------------------------------------------------------------
+DELIMITER $$
+
+CREATE DEFINER=`root`@`localhost` PROCEDURE `bloque1`()
+BEGIN
+
+	DECLARE v_externa VARCHAR(45) DEFAULT 'Variable visible en todo el procedimiento ';
+	BEGIN
+			DECLARE v_interna VARCHAR(100);
+			SET v_interna = 'Variable SÓLO accesible entre las líneas 11-16 ';
+			SELECT v_externa;
+            SELECT v_interna;
+	END;
+	SELECT v_interna;
+	
+END
