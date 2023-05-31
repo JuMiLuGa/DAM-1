@@ -22,7 +22,7 @@ class VentanaCalculadora extends JFrame {
 		setDefaultCloseOperation(EXIT_ON_CLOSE);
 
 		add(new PanelCalculadora());
-//        pack();
+        pack();
 		setVisible(true);
 	}
 }
