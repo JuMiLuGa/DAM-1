@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.wb.rcp.feature"
+      label="%featureName"
+      version="1.11.0.202210231159"
+      provider-name="%providerName"
+      plugin="org.eclipse.wb.rcp"
+      image="eclipse_update_120.jpg">
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <requires>
+      <import feature="org.eclipse.wb.layout.group.feature" version="1.9.0" match="greaterOrEqual"/>
+      <import feature="org.eclipse.wb.core.feature" version="1.9.0" match="greaterOrEqual"/>
+      <import feature="org.eclipse.wb.core.java.feature" version="1.9.0" match="greaterOrEqual"/>
+      <import feature="org.eclipse.wb.core.ui.feature" version="1.9.0" match="greaterOrEqual"/>
+      <import feature="org.eclipse.wb.swt.feature" version="1.9.0" match="greaterOrEqual"/>
+      <import feature="org.eclipse.pde" version="3.2.0" match="greaterOrEqual"/>
+   </requires>
+
+   <plugin
+         id="org.eclipse.wb.rcp"
+         download-size="1516"
+         install-size="3072"
+         version="1.9.1.202210231159"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.wb.rcp.databinding"
+         download-size="626"
+         install-size="1556"
+         version="1.9.1.202210231159"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.wb.rcp.databinding.emf"
+         download-size="148"
+         install-size="400"
+         version="1.9.1.202210231159"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.wb.rcp.nebula"
+         download-size="149"
+         install-size="307"
+         version="1.9.1.202210231159"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.wb.rcp.swing2swt"
+         download-size="69"
+         install-size="145"
+         version="1.9.1.202210231159"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.wb.swt.widgets.baseline"
+         download-size="52"
+         install-size="187"
+         version="1.9.1.202210231159"
+         unpack="false"/>
+
+</feature>

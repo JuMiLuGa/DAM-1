@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.wb.core.java.feature"
+      label="%featureName"
+      version="1.11.0.202210231159"
+      provider-name="%providerName">
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <requires>
+      <import feature="org.eclipse.wb.core.feature" version="0.0.0"/>
+   </requires>
+
+   <plugin
+         id="org.eclipse.wb.core.java"
+         download-size="2311"
+         install-size="5002"
+         version="1.9.2.202210231159"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.wb.core.databinding"
+         download-size="311"
+         install-size="660"
+         version="1.9.1.202210231159"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.commons.commons-beanutils"
+         download-size="241"
+         install-size="503"
+         version="1.9.4"/>
+
+   <plugin
+         id="org.apache.commons.digester"
+         download-size="235"
+         install-size="486"
+         version="3.2.0"/>
+
+   <plugin
+         id="org.apache.commons.logging"
+         download-size="71"
+         install-size="145"
+         version="1.2.0.v20180409-1502"/>
+
+</feature>

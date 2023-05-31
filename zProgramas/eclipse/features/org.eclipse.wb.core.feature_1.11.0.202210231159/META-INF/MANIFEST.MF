@@ -1,0 +1,19 @@
+Manifest-Version: 1.0
+Created-By: Maven Archiver 3.5.2
+Build-Jdk-Spec: 11
+
+Name: epl-v10.html
+SHA-256-Digest: T9ZK7tNA1ipkqNpLNx7+D20NdF9NLb76y6hsZG02vHI=
+
+Name: feature.xml
+SHA-256-Digest: GqylK0E8v0Yhxf78DVHPsovphIY8jMw+cnQ2z0zhMoY=
+
+Name: eclipse_update_120.jpg
+SHA-256-Digest: Hz0atd2kr+i4cvgLVlm8vrN9olKs5NgxwdDxTuA9N2k=
+
+Name: feature.properties
+SHA-256-Digest: vCjdOrIi5fkeH1e2+5ErVaEtaLxrgDGxEY5SbmgREN0=
+
+Name: license.html
+SHA-256-Digest: NtYy0Ct2AeIvgzgxPdhL3DTZ5FKCaZ8avCdEgRY57Ho=
+

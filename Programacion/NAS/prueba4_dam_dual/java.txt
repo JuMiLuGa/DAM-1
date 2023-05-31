@@ -1,6 +1,0 @@
-Java es una plataforma informática de lenguaje de programación creada por Sun Microsystems en 1995.
-Ha evolucionado desde sus humildes comienzos hasta impulsar una gran parte del mundo digital actual, ya que es una plataforma fiable en la que se crean muchos servicios y aplicaciones.
-Los nuevos e innovadores productos y servicios digitales diseñados para el futuro también siguen basándose en Java.
-Aunque la mayoría de aplicaciones Java modernas combinan el tiempo de ejecución y la aplicación de Java, todavía existen algunas aplicaciones e incluso sitios web que no funcionan sin instalar Java para escritorio.
-El sitio web de Java está pensado para consumidores que todavía necesitan Java en sus aplicaciones de escritorio, sobre todo las aplicaciones que tienen como destino Java 8.
-Los desarrolladores y los usuarios que quieran aprender sobre programación Java, deben consultar el sitio web de java y los usuarios profesionales, la web de oracle para obtener más información.

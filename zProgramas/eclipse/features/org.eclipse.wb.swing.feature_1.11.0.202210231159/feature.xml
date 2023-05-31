@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.wb.swing.feature"
+      label="%featureName"
+      version="1.11.0.202210231159"
+      provider-name="%providerName"
+      plugin="org.eclipse.wb.swing"
+      image="eclipse_update_120.jpg">
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <requires>
+      <import feature="org.eclipse.wb.core.feature" version="1.9.0" match="greaterOrEqual"/>
+      <import feature="org.eclipse.wb.core.java.feature" version="1.9.0" match="greaterOrEqual"/>
+      <import feature="org.eclipse.wb.core.ui.feature" version="1.9.0" match="greaterOrEqual"/>
+      <import feature="org.eclipse.wb.layout.group.feature" version="1.9.0" match="greaterOrEqual"/>
+   </requires>
+
+   <plugin
+         id="org.eclipse.wb.swing"
+         download-size="1479"
+         install-size="2975"
+         version="1.9.1.202210231159"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.wb.swing.FormLayout.lib"
+         download-size="414"
+         install-size="448"
+         version="1.9.1.202210231159"/>
+
+   <plugin
+         id="org.eclipse.wb.swing.FormLayout"
+         download-size="311"
+         install-size="668"
+         version="1.9.1.202210231159"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.wb.swing.MigLayout.lib"
+         download-size="284"
+         install-size="298"
+         version="1.9.1.202210231159"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.wb.swing.MigLayout"
+         download-size="298"
+         install-size="658"
+         version="1.9.1.202210231159"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.wb.swing.databinding"
+         download-size="325"
+         install-size="774"
+         version="1.9.1.202210231159"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.wb.swing.jsr296"
+         download-size="33"
+         install-size="82"
+         version="1.9.1.202210231159"
+         unpack="false"/>
+	
+   <plugin
+         id="org.eclipse.wb.swing.java6"
+         download-size="89"
+         install-size="191"
+         version="1.9.1.202210231159"
+         unpack="false"/>
+
+</feature>

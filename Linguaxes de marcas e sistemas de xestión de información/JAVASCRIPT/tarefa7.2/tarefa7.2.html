@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>UD 7. Tarefa 7.2</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    </head>
+    <body>
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Nome</th>
+                    <th scope="col">Apelidos</th>
+                    <th scope="col">Teléfono</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">1</th>
+                    <td>Xurxo</td>
+                    <td>Pereira</td>
+                    <td>666555444</td>
+                </tr>
+                <tr>
+                    <th scope="row">2</th>
+                    <td>Xoán</td>
+                    <td>Loureiro</td>
+                    <td>600111222</td>
+                </tr>
+                <tr>
+                    <th scope="row">3</th>
+                    <td colspan="2" id="nombre">Breogán</td>
+                    <td>7777</td>
+                </tr>
+            </tbody>
+        </table>
+        <script>
+            // Cambiar el color de fondo del body
+            document.body.style.backgroundColor = "lightblue";
+        
+            // Añadir las clases table-dark y table-hover a la tabla
+            var table = document.querySelector("table");
+            table.classList.add("table-dark", "table-hover");
+        
+            // Cambiar el estilo de las table heads
+            var tableHeaders = document.querySelectorAll("th");
+            tableHeaders.forEach(function(header) {
+                header.style.backgroundColor = "lightgray";
+                header.style.fontWeight = "bold";
+            });
+        
+            // Cambiar el nombre "Breogán" por "Maruxa"
+            var nombreCelda = document.getElementById("nombre");
+            nombreCelda.textContent = "Maruxa";
+        
+             // Añadir el apellido "Losada" a "Maruxa" en una nueva celda
+            var apellidosCelda = document.createElement("td");
+            apellidosCelda.textContent = "Losada";
+            var filaMaruxa = nombreCelda.parentNode;
+            filaMaruxa.appendChild(apellidosCelda);
+        </script>
+                
+    </body>
+</html>
