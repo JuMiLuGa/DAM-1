@@ -41,6 +41,14 @@ public class VentanaMetadatos extends JFrame {
 
 	public VentanaMetadatos() {
 
+		driver = "jdbc";
+		sgbd = "mysql";
+		servidor = "192.168.56.21";
+		puerto = "3306";
+		usuario = "progjava";
+		clave = "J#v#Prog2023";
+		
+		
 		setTitle("Metadatos");
 		setBounds(100, 100, 600, 435);
 		setDefaultCloseOperation(EXIT_ON_CLOSE);
@@ -87,12 +95,12 @@ public class VentanaMetadatos extends JFrame {
 
 		JRadioButton rbtTablas = new JRadioButton("Tablas", true);
 		JRadioButton rbtVistas = new JRadioButton("Vistas");
-		JRadioButton rtbProcedimientosAlmacenados = new JRadioButton("Proc. Almacenados");
+		JRadioButton rbtProcedimientosAlmacenados = new JRadioButton("Proc. Almacenados");
 
 		ButtonGroup bg = new ButtonGroup();
 		bg.add(rbtTablas);
 		bg.add(rbtVistas);
-		bg.add(rtbProcedimientosAlmacenados);
+		bg.add(rbtProcedimientosAlmacenados);
 
 		btnMostrar = new JButton("Mostrar");
 		btnMostrar.setEnabled(false);
@@ -103,7 +111,7 @@ public class VentanaMetadatos extends JFrame {
 		pnlGridControl.add(cmbBDs);
 		pnlGridControl.add(rbtTablas);
 		pnlGridControl.add(rbtVistas);
-		pnlGridControl.add(rtbProcedimientosAlmacenados);
+		pnlGridControl.add(rbtProcedimientosAlmacenados);
 		pnlGridControl.add(btnMostrar);
 
 		pnlGridControl.setBorder(BorderFactory.createTitledBorder("Control"));
@@ -145,6 +153,23 @@ public class VentanaMetadatos extends JFrame {
 			}
 		});
 
+		btnMostrar.addActionListener(new ActionListener() {
+			
+			@Override
+			public void actionPerformed(ActionEvent e) {
+
+				String tipo = "TABLE";
+				if(rbtVistas.isSelected()) {
+					tipo = "VIEW";
+				} else if(rbtProcedimientosAlmacenados.isSelected()) {
+					tipo = "PROCEDURE";
+				}
+				String resultado = obtenerMetadatos(cmbBDs.getSelectedItem().toString(),tipo);
+				txaResultados.setText(resultado);
+								
+			}
+		});
+		
 		setVisible(true);
 	}
 
@@ -195,16 +220,42 @@ public class VentanaMetadatos extends JFrame {
 
 		try (Connection con = DriverManager.getConnection(urlMysql, usuario, clave);) {
 			DatabaseMetaData metadatos = con.getMetaData();
+			
+			cmbBDs.removeAllItems();
+			
 			try(ResultSet rs = metadatos.getCatalogs();){
 				while (rs.next()) {
 					cmbBDs.addItem(rs.getString("TABLE_CAT"));
 				}
 			}
+			btnMostrar.setEnabled(true);
 		} catch (SQLException e) {
 			JOptionPane.showMessageDialog(null,
 					"ERROR, BD inaccesible o datos de conexion no válidos: " + e.getMessage(), "Error de conexion a BD",
 					JOptionPane.ERROR_MESSAGE);
 			e.printStackTrace();
+			
+			cmbBDs.removeAllItems();
+			btnMostrar.setEnabled(false);
 		}
+	}
+	private String obtenerMetadatos(String nombreBD, String tipoContenido) {
+		StringBuilder sb = new StringBuilder();
+		try(Connection con = DriverManager.getConnection(urlMysql, usuario, clave)){
+			DatabaseMetaData metadatos = con.getMetaData();
+			switch (tipoContenido) {
+			case "TABLE": 
+				try(ResultSet rs = metadatos.getTables(nombreBD, null, null, new String[] {"TABLE"})){
+					while(rs.next()){
+						sb.append(String.format("BD: %s NOMBRE: %s TIPO: %s\n",rs.getString("TABLE_CAT"), rs.getString("TABLE_NAME"), rs.getString("TABLE_TYPE")));
+					}
+				}
+			}
+		} catch (SQLException e) {
+
+			e.printStackTrace();
+		}
+		return sb.toString();
+		
 	}
 }
