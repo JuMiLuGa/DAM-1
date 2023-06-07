@@ -244,8 +244,8 @@ public class VentanaMetadatos extends JFrame {
 		try(Connection con = DriverManager.getConnection(urlMysql, usuario, clave)){
 			DatabaseMetaData metadatos = con.getMetaData();
 			switch (tipoContenido) {
-			case "TABLE": 
-				try(ResultSet rs = metadatos.getTables(nombreBD, null, null, new String[] {"TABLE"})){
+			case "TABLE", "VIEW": 
+				try(ResultSet rs = metadatos.getTables(nombreBD, null, null, new String[] {tipoContenido})){
 					while(rs.next()){
 						sb.append(String.format("BD: %s NOMBRE: %s TIPO: %s\n",rs.getString("TABLE_CAT"), rs.getString("TABLE_NAME"), rs.getString("TABLE_TYPE")));
 					}
