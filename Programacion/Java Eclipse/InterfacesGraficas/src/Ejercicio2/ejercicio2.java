@@ -4,8 +4,6 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import javax.swing.*;
 
-import Ejercicio2b.PanelBoton;
-import Ejercicio2b.VentanaBoton;
 
 public class ejercicio2 {
 
@@ -41,6 +39,8 @@ class PanelBoton extends JPanel implements ActionListener {
 
 	public PanelBoton() {
 
+		
+		
 		add(boton1);
 		add(boton2);
 		add(boton3);

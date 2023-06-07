@@ -27,7 +27,7 @@ class VentanaBoton extends JFrame {
 	}
 }
 
-class PanelBoton extends JPanel implements ActionListener {
+public class PanelBoton extends JPanel implements ActionListener {
 
 	private static final long serialVersionUID = 1L;
 
