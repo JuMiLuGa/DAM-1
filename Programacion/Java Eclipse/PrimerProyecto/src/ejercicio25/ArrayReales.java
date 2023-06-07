@@ -26,7 +26,7 @@ public class ArrayReales implements Estadisticas {
 
 	@Override
 	public double minimo() {
-		double min;
+		double min = 0;
 		for (int i = 0; i < valores.length; i++) {
 			if (min > valores[i]) {
 				min = valores[i];
@@ -37,7 +37,7 @@ public class ArrayReales implements Estadisticas {
 
 	@Override
 	public double maximo() {
-		double max;
+		double max = 0;
 		for (int i = 0; i < valores.length; i++) {
 			if (max < valores[i]) {
 				max = valores[i];

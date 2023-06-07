@@ -12,7 +12,7 @@ public class Pruebas {
 		p2.imprimir();
 		p3.imprimir();
 		p3.imprimirBonito();
-		p4.imprimirBonito();
+		p4.imprimir();
 	}
 	
 }

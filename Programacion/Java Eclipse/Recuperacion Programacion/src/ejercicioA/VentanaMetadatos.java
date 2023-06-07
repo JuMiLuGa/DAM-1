@@ -250,6 +250,12 @@ public class VentanaMetadatos extends JFrame {
 						sb.append(String.format("BD: %s NOMBRE: %s TIPO: %s\n",rs.getString("TABLE_CAT"), rs.getString("TABLE_NAME"), rs.getString("TABLE_TYPE")));
 					}
 				}
+			case "PROCEDURE":
+				try(ResultSet rs = metadatos.getProcedures(nombreBD, null, null)){
+					while(rs.next()){
+						sb.append(String.format("BD: %s NOMBRE: %s TIPO: %s\n",rs.getString("PROCEDURE_CAT"), rs.getString("PROCEDURE_NAME"), rs.getString("PROCEDURE_TYPE")));
+					}
+				}
 			}
 		} catch (SQLException e) {
 

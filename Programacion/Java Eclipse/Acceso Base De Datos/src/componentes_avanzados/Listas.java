@@ -33,7 +33,7 @@ class VentanaPruebaListas extends JFrame {
 			@Override
 			public void valueChanged(ListSelectionEvent e) {
 				
-				lbl
+				
 				
 			}
 		});
