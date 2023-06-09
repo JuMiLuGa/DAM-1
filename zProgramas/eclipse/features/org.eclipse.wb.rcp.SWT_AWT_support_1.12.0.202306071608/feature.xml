@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.eclipse.wb.rcp.SWT_AWT_support"
+      label="%featureName"
+      version="1.12.0.202306071608"
+      provider-name="%providerName"
+      plugin="org.eclipse.wb.rcp.SWT_AWT">
+
+   <description>
+      %description
+   </description>
+
+   <copyright>
+      %copyright
+   </copyright>
+
+   <license url="%licenseURL">
+      %license
+   </license>
+
+   <requires>
+      <import feature="org.eclipse.wb.core.feature" version="1.9.0" match="greaterOrEqual"/>
+      <import feature="org.eclipse.wb.rcp.feature" version="1.9.0" match="greaterOrEqual"/>
+      <import feature="org.eclipse.wb.swing.feature" version="1.9.0" match="greaterOrEqual"/>
+   </requires>
+
+   <plugin
+         id="org.eclipse.wb.rcp.SWT_AWT"
+         download-size="23"
+         install-size="40"
+         version="1.9.2.202306071608"
+         unpack="false"/>
+
+</feature>
