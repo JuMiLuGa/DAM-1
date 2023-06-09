@@ -47,8 +47,7 @@ public class VentanaMetadatos extends JFrame {
 		puerto = "3306";
 		usuario = "progjava";
 		clave = "J#v#Prog2023";
-		
-		
+
 		setTitle("Metadatos");
 		setBounds(100, 100, 600, 435);
 		setDefaultCloseOperation(EXIT_ON_CLOSE);
@@ -154,22 +153,40 @@ public class VentanaMetadatos extends JFrame {
 		});
 
 		btnMostrar.addActionListener(new ActionListener() {
-			
+
 			@Override
 			public void actionPerformed(ActionEvent e) {
 
 				String tipo = "TABLE";
-				if(rbtVistas.isSelected()) {
+				if (rbtVistas.isSelected()) {
 					tipo = "VIEW";
-				} else if(rbtProcedimientosAlmacenados.isSelected()) {
+				} else if (rbtProcedimientosAlmacenados.isSelected()) {
 					tipo = "PROCEDURE";
 				}
-				String resultado = obtenerMetadatos(cmbBDs.getSelectedItem().toString(),tipo);
+				String resultado = obtenerMetadatos(cmbBDs.getSelectedItem().toString(), tipo);
 				txaResultados.setText(resultado);
-								
+
 			}
 		});
-		
+
+		// MENU CONTEXTUAL
+		JPopupMenu pupHabilitarTxa = new JPopupMenu();
+		JCheckBoxMenuItem mniHabilitarTxa = new JCheckBoxMenuItem("Habilitar", new ImageIcon("recursos/editar16.png"));
+
+		pupHabilitarTxa.add(mniHabilitarTxa);
+
+		txaResultados.setComponentPopupMenu(pupHabilitarTxa);
+
+		mniHabilitarTxa.addActionListener(new ActionListener() {
+
+			@Override
+			public void actionPerformed(ActionEvent e) {
+
+				txaResultados.setEnabled(mniHabilitarTxa.isSelected());
+
+			}
+		});
+
 		setVisible(true);
 	}
 
@@ -220,10 +237,10 @@ public class VentanaMetadatos extends JFrame {
 
 		try (Connection con = DriverManager.getConnection(urlMysql, usuario, clave);) {
 			DatabaseMetaData metadatos = con.getMetaData();
-			
+
 			cmbBDs.removeAllItems();
-			
-			try(ResultSet rs = metadatos.getCatalogs();){
+
+			try (ResultSet rs = metadatos.getCatalogs();) {
 				while (rs.next()) {
 					cmbBDs.addItem(rs.getString("TABLE_CAT"));
 				}
@@ -234,34 +251,45 @@ public class VentanaMetadatos extends JFrame {
 					"ERROR, BD inaccesible o datos de conexion no válidos: " + e.getMessage(), "Error de conexion a BD",
 					JOptionPane.ERROR_MESSAGE);
 			e.printStackTrace();
-			
+
 			cmbBDs.removeAllItems();
 			btnMostrar.setEnabled(false);
 		}
 	}
+
 	private String obtenerMetadatos(String nombreBD, String tipoContenido) {
 		StringBuilder sb = new StringBuilder();
-		try(Connection con = DriverManager.getConnection(urlMysql, usuario, clave)){
+		try (Connection con = DriverManager.getConnection(urlMysql, usuario, clave)) {
 			DatabaseMetaData metadatos = con.getMetaData();
+
+			int nRegistros = 0;
+
 			switch (tipoContenido) {
-			case "TABLE", "VIEW": 
-				try(ResultSet rs = metadatos.getTables(nombreBD, null, null, new String[] {tipoContenido})){
-					while(rs.next()){
-						sb.append(String.format("BD: %s NOMBRE: %s TIPO: %s\n",rs.getString("TABLE_CAT"), rs.getString("TABLE_NAME"), rs.getString("TABLE_TYPE")));
+			case "TABLE", "VIEW":
+				try (ResultSet rs = metadatos.getTables(nombreBD, null, null, new String[] { tipoContenido })) {
+					while (rs.next()) {
+						sb.append(String.format("BD: %s NOMBRE: %s TIPO: %s\n", rs.getString("TABLE_CAT"),
+								rs.getString("TABLE_NAME"), rs.getString("TABLE_TYPE")));
+						nRegistros++;
 					}
 				}
+				break;
 			case "PROCEDURE":
-				try(ResultSet rs = metadatos.getProcedures(nombreBD, null, null)){
-					while(rs.next()){
-						sb.append(String.format("BD: %s NOMBRE: %s TIPO: %s\n",rs.getString("PROCEDURE_CAT"), rs.getString("PROCEDURE_NAME"), rs.getString("PROCEDURE_TYPE")));
+				try (ResultSet rs = metadatos.getProcedures(nombreBD, null, null)) {
+					while (rs.next()) {
+						sb.append(String.format("BD: %s NOMBRE: %s TIPO: %s\n", rs.getString("PROCEDURE_CAT"),
+								rs.getString("PROCEDURE_NAME"), rs.getString("PROCEDURE_TYPE")));
+						nRegistros++;
 					}
 				}
+				break;
 			}
+			lblNumRegistros.setText("Nº registros: " + nRegistros);
 		} catch (SQLException e) {
 
 			e.printStackTrace();
 		}
 		return sb.toString();
-		
+
 	}
 }
