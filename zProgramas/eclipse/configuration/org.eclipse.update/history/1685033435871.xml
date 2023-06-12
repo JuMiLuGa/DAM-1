@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<config date="1686586481747" transient="false" version="3.0">
+<config date="1685033435871" transient="false" version="3.0">
 <site enabled="true" policy="USER-EXCLUDE" updateable="true" url="platform:/base/">
 <feature id="org.eclipse.babel.nls_tools.tm_es" url="features/org.eclipse.babel.nls_tools.tm_es_4.5.0.v20151128060001/" version="4.5.0.v20151128060001">
 </feature>
@@ -9,7 +9,7 @@
 </feature>
 <feature id="org.eclipse.babel.nls_technology.recommenders_es" url="features/org.eclipse.babel.nls_technology.recommenders_es_4.5.0.v20151128060001/" version="4.5.0.v20151128060001">
 </feature>
-<feature id="org.eclipse.wb.core.feature" plugin-identifier="org.eclipse.wb.core" url="features/org.eclipse.wb.core.feature_1.12.0.202306071608/" version="1.12.0.202306071608">
+<feature id="org.eclipse.wb.core.feature" plugin-identifier="org.eclipse.wb.core" url="features/org.eclipse.wb.core.feature_1.11.0.202210231159/" version="1.11.0.202210231159">
 </feature>
 <feature id="org.eclipse.tm.terminal.connector.ssh.feature" plugin-identifier="org.eclipse.tm.terminal.connector.ssh" url="features/org.eclipse.tm.terminal.connector.ssh.feature_11.1.0.202212091724/" version="11.1.0.202212091724">
 </feature>
@@ -19,7 +19,7 @@
 </feature>
 <feature id="org.eclipse.equinox.p2.core.feature" url="features/org.eclipse.equinox.p2.core.feature_1.6.1700.v20230120-0604/" version="1.6.1700.v20230120-0604">
 </feature>
-<feature id="org.eclipse.wb.rcp.doc.user.feature" plugin-identifier="org.eclipse.wb.rcp.doc.user" url="features/org.eclipse.wb.rcp.doc.user.feature_1.12.0.202306071608/" version="1.12.0.202306071608">
+<feature id="org.eclipse.wb.rcp.doc.user.feature" plugin-identifier="org.eclipse.wb.rcp.doc.user" url="features/org.eclipse.wb.rcp.doc.user.feature_1.11.0.202210231159/" version="1.11.0.202210231159">
 </feature>
 <feature id="org.eclipse.buildship" plugin-identifier="org.eclipse.buildship.branding" url="features/org.eclipse.buildship_3.1.6.v20220511-1359/" version="3.1.6.v20220511-1359">
 </feature>
@@ -27,7 +27,7 @@
 </feature>
 <feature id="org.eclipse.babel.nls_technology.dltk_es" url="features/org.eclipse.babel.nls_technology.dltk_es_4.5.0.v20151128060001/" version="4.5.0.v20151128060001">
 </feature>
-<feature id="org.eclipse.wb.layout.group.feature" plugin-identifier="org.eclipse.wb.layout.group" url="features/org.eclipse.wb.layout.group.feature_1.12.0.202306071608/" version="1.12.0.202306071608">
+<feature id="org.eclipse.wb.layout.group.feature" plugin-identifier="org.eclipse.wb.layout.group" url="features/org.eclipse.wb.layout.group.feature_1.11.0.202210231159/" version="1.11.0.202210231159">
 </feature>
 <feature id="org.eclipse.tm.terminal.connector.local.feature" url="features/org.eclipse.tm.terminal.connector.local.feature_11.1.0.202212091724/" version="11.1.0.202212091724">
 </feature>
@@ -39,7 +39,7 @@
 </feature>
 <feature id="org.eclipse.ecf.filetransfer.ssl.feature" url="features/org.eclipse.ecf.filetransfer.ssl.feature_1.1.401.v20210409-2301/" version="1.1.401.v20210409-2301">
 </feature>
-<feature id="org.eclipse.wb.swing.doc.user.feature" plugin-identifier="org.eclipse.wb.swing.doc.user" url="features/org.eclipse.wb.swing.doc.user.feature_1.12.0.202306071608/" version="1.12.0.202306071608">
+<feature id="org.eclipse.wb.swing.doc.user.feature" plugin-identifier="org.eclipse.wb.swing.doc.user" url="features/org.eclipse.wb.swing.doc.user.feature_1.11.0.202210231159/" version="1.11.0.202210231159">
 </feature>
 <feature id="org.eclipse.justj.openjdk.hotspot.jre.full" url="features/org.eclipse.justj.openjdk.hotspot.jre.full_19.0.1.v20221102-1007/" version="19.0.1.v20221102-1007">
 </feature>
@@ -61,7 +61,7 @@
 </feature>
 <feature id="org.eclipse.babel.nls_tools.tracecompass_es" url="features/org.eclipse.babel.nls_tools.tracecompass_es_4.5.0.v20151128060001/" version="4.5.0.v20151128060001">
 </feature>
-<feature id="org.eclipse.wb.core.java.feature" url="features/org.eclipse.wb.core.java.feature_1.12.0.202306071608/" version="1.12.0.202306071608">
+<feature id="org.eclipse.wb.core.java.feature" url="features/org.eclipse.wb.core.java.feature_1.11.0.202210231159/" version="1.11.0.202210231159">
 </feature>
 <feature id="org.eclipse.m2e.feature" plugin-identifier="org.eclipse.m2e.core" url="features/org.eclipse.m2e.feature_2.2.1.20230307-1553/" version="2.2.1.20230307-1553">
 </feature>
@@ -83,7 +83,7 @@
 </feature>
 <feature id="org.eclipse.babel.nls_eclipse_es" url="features/org.eclipse.babel.nls_eclipse_es_4.5.0.v20151128060001/" version="4.5.0.v20151128060001">
 </feature>
-<feature id="org.eclipse.pde" url="features/org.eclipse.pde_3.14.1500.v20230302-0300/" version="3.14.1500.v20230302-0300">
+<feature id="org.eclipse.pde" url="features/org.eclipse.pde_3.14.1300.v20220831-1800/" version="3.14.1300.v20220831-1800">
 </feature>
 <feature id="org.eclipse.ecf.filetransfer.httpclient5.feature" url="features/org.eclipse.ecf.filetransfer.httpclient5.feature_1.1.701.v20221112-0806/" version="1.1.701.v20221112-0806">
 </feature>
@@ -103,7 +103,7 @@
 </feature>
 <feature id="org.eclipse.wb.core.xml.feature" plugin-identifier="org.eclipse.wb.core.xml" url="features/org.eclipse.wb.core.xml.feature_1.11.0.202210231159/" version="1.11.0.202210231159">
 </feature>
-<feature id="org.eclipse.wb.swt.feature" plugin-identifier="org.eclipse.wb.swt" url="features/org.eclipse.wb.swt.feature_1.12.0.202306071608/" version="1.12.0.202306071608">
+<feature id="org.eclipse.wb.swt.feature" plugin-identifier="org.eclipse.wb.swt" url="features/org.eclipse.wb.swt.feature_1.11.0.202210231159/" version="1.11.0.202210231159">
 </feature>
 <feature id="org.eclipse.wildwebdeveloper.xml.feature" url="features/org.eclipse.wildwebdeveloper.xml.feature_1.0.2.202301201156/" version="1.0.2.202301201156">
 </feature>
@@ -117,7 +117,7 @@
 </feature>
 <feature id="org.eclipse.babel.nls_technology.packaging_es" url="features/org.eclipse.babel.nls_technology.packaging_es_4.5.0.v20151128060001/" version="4.5.0.v20151128060001">
 </feature>
-<feature id="org.eclipse.wb.rcp.SWT_AWT_support" plugin-identifier="org.eclipse.wb.rcp.SWT_AWT" url="features/org.eclipse.wb.rcp.SWT_AWT_support_1.12.0.202306071608/" version="1.12.0.202306071608">
+<feature id="org.eclipse.wb.rcp.SWT_AWT_support" plugin-identifier="org.eclipse.wb.rcp.SWT_AWT" url="features/org.eclipse.wb.rcp.SWT_AWT_support_1.11.0.202210231159/" version="1.11.0.202210231159">
 </feature>
 <feature id="org.eclipse.tips.feature" url="features/org.eclipse.tips.feature_0.3.100.v20230109-1247/" version="0.3.100.v20230109-1247">
 </feature>
@@ -125,7 +125,7 @@
 </feature>
 <feature id="org.eclipse.equinox.p2.extras.feature" url="features/org.eclipse.equinox.p2.extras.feature_1.4.1900.v20230120-0604/" version="1.4.1900.v20230120-0604">
 </feature>
-<feature id="org.eclipse.wb.doc.user.feature" plugin-identifier="org.eclipse.wb.doc.user" url="features/org.eclipse.wb.doc.user.feature_1.12.0.202306071608/" version="1.12.0.202306071608">
+<feature id="org.eclipse.wb.doc.user.feature" plugin-identifier="org.eclipse.wb.doc.user" url="features/org.eclipse.wb.doc.user.feature_1.11.0.202210231159/" version="1.11.0.202210231159">
 </feature>
 <feature id="org.eclipse.tm.terminal.feature" plugin-identifier="org.eclipse.tm.terminal.view.core" url="features/org.eclipse.tm.terminal.feature_11.1.0.202212091724/" version="11.1.0.202212091724">
 </feature>
@@ -141,7 +141,7 @@
 </feature>
 <feature id="org.eclipse.babel.nls_soa.bpmn2-modeler_es" url="features/org.eclipse.babel.nls_soa.bpmn2-modeler_es_4.5.0.v20151128060001/" version="4.5.0.v20151128060001">
 </feature>
-<feature id="org.eclipse.wb.core.ui.feature" plugin-identifier="org.eclipse.wb.core.ui" url="features/org.eclipse.wb.core.ui.feature_1.12.0.202306071608/" version="1.12.0.202306071608">
+<feature id="org.eclipse.wb.core.ui.feature" plugin-identifier="org.eclipse.wb.core.ui" url="features/org.eclipse.wb.core.ui.feature_1.11.0.202210231159/" version="1.11.0.202210231159">
 </feature>
 <feature id="org.eclipse.platform" url="features/org.eclipse.platform_4.27.0.v20230302-0300/" version="4.27.0.v20230302-0300">
 </feature>
@@ -149,11 +149,11 @@
 </feature>
 <feature id="org.eclipse.babel.nls_technology.egit_es" url="features/org.eclipse.babel.nls_technology.egit_es_4.5.0.v20151128060001/" version="4.5.0.v20151128060001">
 </feature>
-<feature id="org.eclipse.wb.swing.feature" plugin-identifier="org.eclipse.wb.swing" url="features/org.eclipse.wb.swing.feature_1.12.0.202306071608/" version="1.12.0.202306071608">
+<feature id="org.eclipse.wb.swing.feature" plugin-identifier="org.eclipse.wb.swing" url="features/org.eclipse.wb.swing.feature_1.11.0.202210231159/" version="1.11.0.202210231159">
 </feature>
 <feature id="org.eclipse.babel.nls_technology.subversive_es" url="features/org.eclipse.babel.nls_technology.subversive_es_4.5.0.v20151128060001/" version="4.5.0.v20151128060001">
 </feature>
-<feature id="org.eclipse.wb.rcp.feature" plugin-identifier="org.eclipse.wb.rcp" url="features/org.eclipse.wb.rcp.feature_1.12.0.202306071608/" version="1.12.0.202306071608">
+<feature id="org.eclipse.wb.rcp.feature" plugin-identifier="org.eclipse.wb.rcp" url="features/org.eclipse.wb.rcp.feature_1.11.0.202210231159/" version="1.11.0.202210231159">
 </feature>
 <feature id="org.eclipse.oomph.setup.core" url="features/org.eclipse.oomph.setup.core_1.26.0.v20230204-0932/" version="1.26.0.v20230204-0932">
 </feature>
