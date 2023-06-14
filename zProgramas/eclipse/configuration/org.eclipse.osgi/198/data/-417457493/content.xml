@@ -2,7 +2,7 @@
 <?metadataRepository version='1.2.0'?>
 <repository name='update site: https://download.eclipse.org/windowbuilder' type='org.eclipse.equinox.internal.p2.metadata.repository.LocalMetadataRepository' version='1.0.0'>
   <properties size='2'>
-    <property name='p2.timestamp' value='1686589960061'/>
+    <property name='p2.timestamp' value='1686761760315'/>
     <property name='site.checksum' value='0'/>
   </properties>
 </repository>
